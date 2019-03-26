@@ -183,6 +183,30 @@ function layerdef(type){
 			fillOpacity:0.75
 		});
 	}
+	
+		function defaultPoint2(color){
+		return (
+		{
+			strokeColor:color,
+			strokeOpacity:0.5,
+			strokeWidth:3,
+			pointRadius:5,
+			fillColor:"white",
+			fillOpacity:0.5
+		});
+	}
+	
+		function defaultPoint3(color){
+		return (
+		{
+			strokeColor:color,
+			strokeOpacity:0.5,
+			strokeWidth:3,
+			pointRadius:5,
+			fillColor:"white",
+			fillOpacity:0.5
+		});
+	}
 
 	/*
 	 * external Point Parameters:
@@ -546,7 +570,14 @@ true
 						make_layer(
 				QURL + "?data=node[wheelchair=no](bbox);out+skel;",
 				name="#c#&nbspwheelchair=no",
-				defaultPoint("red"),
+				defaultPoint2("red"),
+				false
+			),
+			
+							make_layer(
+				QURL + "?data=node[shop](bbox);out+skel;",
+				name="#c#&nbspshop",
+				defaultPoint2("yellow"),
 				false
 			),
 		/*	
