@@ -204,7 +204,19 @@ function layerdef(type){
 			strokeWidth:3,
 			pointRadius:7,
 			fillColor:"white",
-			fillOpacity:1
+			fillOpacity:0
+		});
+	}
+	
+		function defaultPoint4(color){
+		return (
+		{
+			strokeColor:color,
+			strokeOpacity:0.9,
+			strokeWidth:3,
+			pointRadius:5,
+			fillColor:"white",
+			fillOpacity:0
 		});
 	}
 
@@ -591,7 +603,7 @@ true
 							make_layer(
 				QURL + "?data=node[crossing](bbox);out+skel;",
 				name="#c#&nbspcrossing only",
-				defaultPoint("red"),
+				defaultPoint4("red"),
 				false
 			),
 			
