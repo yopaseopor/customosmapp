@@ -542,6 +542,13 @@ true
 	if (type == "bugs"){
 		//	dit maakt de layers voor de bugslaag
 			map.addLayers([
+			
+						make_layer(
+				QURL + "?data=node[wheelchair=no](bbox);out+skel;",
+				name="#c#&nbspwheelchair=no",
+				defaultPoint("red"),
+				false
+			),
 		/*	
 			make_layer(QURL + "?data=(relation[route=bicycle](bbox);way[bicycle~'no|use_sidepath'](r);node(w););out+skel;", "#39ff00",name="#l#cycle routes & bicycle=no|use_sidepath",8, true,"5 10"),
 	
