@@ -603,7 +603,7 @@ function popuplinks(lonlat){
 	  
 	  
 	
-	  var area = 0.01
+	  var area = 0.04
 	  var ctop = lonlat.lat + area;
 	  var cbottom = ctop - (2 * area);
 	  var cleft = lonlat.lon - area;
