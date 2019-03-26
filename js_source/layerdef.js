@@ -580,6 +580,13 @@ true
 				defaultPoint2("yellow"),
 				false
 			),
+			
+								make_layer(
+				QURL + "?data=node[amenity](bbox);out+skel;",
+				name="#c#&nbspamenity",
+				defaultPoint2("yellow"),
+				false
+			),
 		/*	
 			make_layer(QURL + "?data=(relation[route=bicycle](bbox);way[bicycle~'no|use_sidepath'](r);node(w););out+skel;", "#39ff00",name="#l#cycle routes & bicycle=no|use_sidepath",8, true,"5 10"),
 	
