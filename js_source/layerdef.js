@@ -629,7 +629,7 @@ true
 									make_layer(
 				QURL + "?data=node[crossing_ref=zebra](bbox);out+skel;",
 				name="#c#&nbsptraffic_signals",
-				defaultPoint4("grey"),
+				defaultPoint5("grey"),
 				false
 			),
 			
