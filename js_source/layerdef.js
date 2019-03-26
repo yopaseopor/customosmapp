@@ -200,11 +200,11 @@ function layerdef(type){
 		return (
 		{
 			strokeColor:color,
-			strokeOpacity:0.5,
+			strokeOpacity:1,
 			strokeWidth:3,
-			pointRadius:5,
+			pointRadius:7,
 			fillColor:"white",
-			fillOpacity:0.5
+			fillOpacity:1
 		});
 	}
 
@@ -587,7 +587,25 @@ true
 				defaultPoint2("yellow"),
 				false
 			),
+			
+							make_layer(
+				QURL + "?data=node[crossing](bbox);out+skel;",
+				name="#c#&nbspcrossing only",
+				defaultPoint("red"),
+				false
+			),
+			
+								make_layer(
+				QURL + "?data=node[crossing=traffic_signals](bbox);out+skel;",
+				name="#c#&nbsptraffic_signals",
+				defaultPoint3("blue"),
+				false
+			),	
+			
+			
+			
 		/*	
+		
 			make_layer(QURL + "?data=(relation[route=bicycle](bbox);way[bicycle~'no|use_sidepath'](r);node(w););out+skel;", "#39ff00",name="#l#cycle routes & bicycle=no|use_sidepath",8, true,"5 10"),
 	
 			make_layer(QURL + "?data=(way[highway=cycleway][bicycle=no][moped!~'^yes|^designated'](bbox);node(w););out+skel;", "#ff00d5",name="#l#cycleway/bicycle=no<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNote: temporarily blocked ways?",10, true),
