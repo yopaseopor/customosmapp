@@ -104,7 +104,7 @@ function init(){
 		var BW = new OpenLayers.Layer.XYZ("Mapnik (B&W)","https://toolserver.org/tiles/bw-mapnik/${z}/${x}/${y}.png",{'attribution': '© <a href="https://www.openstreetmap.org/copyright/en" target="_blank">OpenStreetMap</a> contributors<br>Overlay data licensed under ODbL '}); 
 		map.addLayer(BW);
 		
-		var OSMFr = new OpenLayers.Layer.OSM("OSMFr", ["http://a.tile.openstreetmap.fr/osmfr/${z}/${x}/${y}.png", "http://b.tile.openstreetmap.fr/osmfr/${z}/${x}/${y}.png ", "hhttp://c.tile.openstreetmap.fr/osmfr/${z}/${x}/${y}.png "], { displayOutsideMaxExtent: true,numZoomLevels: 20, attribution: '&copy; Openstreetmap France | © <a href="https://www.openstreetmap.org/copyright/en" target="_blank">OpenStreetMap</a> contributors<br>Overlay data licensed under ODbL  '}); map.addLayer(OSMFr);
+		var OSMFr = new OpenLayers.Layer.OSM("OSMFr", ["https://a.tile.openstreetmap.fr/osmfr/${z}/${x}/${y}.png", "https://b.tile.openstreetmap.fr/osmfr/${z}/${x}/${y}.png", "https://c.tile.openstreetmap.fr/osmfr/${z}/${x}/${y}.png"], { displayOutsideMaxExtent: true,numZoomLevels: 20, attribution: '&copy; Openstreetmap France | © <a href="https://www.openstreetmap.org/copyright/en" target="_blank">OpenStreetMap</a> contributors<br>Overlay data licensed under ODbL  '}); map.addLayer(OSMFr);
 		
 		var OSMCh = new OpenLayers.Layer.XYZ("OSMCh","https://tile.osm.ch/switzerland/${z}/${x}/${y}.png",{'attribution': ' © <a href="https://www.openstreetmap.org/copyright/en" target="_blank">OpenStreetMap</a> contributors<br>Overlay data licensed under ODbL '}); 
 		map.addLayer(OSMCh);
