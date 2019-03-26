@@ -202,7 +202,7 @@ function layerdef(type){
 			strokeColor:color,
 			strokeOpacity:1,
 			strokeWidth:3,
-			pointRadius:7,
+			pointRadius:5,
 			fillColor:"white",
 			fillOpacity:0
 		});
@@ -214,7 +214,19 @@ function layerdef(type){
 			strokeColor:color,
 			strokeOpacity:0.9,
 			strokeWidth:3,
-			pointRadius:5,
+			pointRadius:7,
+			fillColor:"white",
+			fillOpacity:0
+		});
+	}
+	
+			function defaultPoint5(color){
+		return (
+		{
+			strokeColor:color,
+			strokeOpacity:0.9,
+			strokeWidth:3,
+			pointRadius:9,
 			fillColor:"white",
 			fillOpacity:0
 		});
@@ -603,17 +615,23 @@ true
 							make_layer(
 				QURL + "?data=node[crossing](bbox);out+skel;",
 				name="#c#&nbspcrossing only",
-				defaultPoint4("red"),
+				defaultPoint3("red"),
 				false
 			),
 			
 								make_layer(
 				QURL + "?data=node[crossing=traffic_signals](bbox);out+skel;",
 				name="#c#&nbsptraffic_signals",
-				defaultPoint3("blue"),
+				defaultPoint4("blue"),
 				false
 			),	
 			
+									make_layer(
+				QURL + "?data=node[crossing_ref=zebra](bbox);out+skel;",
+				name="#c#&nbsptraffic_signals",
+				defaultPoint4("grey"),
+				false
+			),
 			
 			
 		/*	
