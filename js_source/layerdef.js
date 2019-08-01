@@ -288,60 +288,6 @@ function layerdef(type){
 			),
 			
 			
-						make_layer(
-				QURL + "?data=node[wheelchair=yes](bbox);out+skel;",
-				name="#ex#&nbspwheelchair=yes",
-				defaultExtPoint("https://image.flaticon.com/icons/png/512/9/9285.png"),
-				false
-			),
-
-			make_layer(
-				QURL + "?data=node['obstacle:wheelchair'=yes](bbox);out+skel;",
-				name="#c#&nbspobstacle:wheelchair=yes<hr>",
-				defaultPoint("black"),
-				false
-			),
-
-			make_layer(
-				QURL + "?data=node[crossing=traffic_signals](bbox);out+skel;",
-				name="#ex#&nbspcrossing=traffic_signals",
-				defaultExtPoint("http://icons.iconarchive.com/icons/google/noto-emoji-travel-places/1024/42571-vertical-traffic-light-icon.png"),
-				false
-			),
-
-			make_layer(
-				QURL + "?data=node[crossing=no](bbox);out+skel;",
-				name="#c#&nbspcrossing=no",
-				defaultPoint("red"),
-				false
-			),
-
-			make_layer(
-				QURL + "?data=node[crossing=uncontrolled](bbox);out+skel;",
-				name="#ex#&nbspcrossing=uncontrolled",
-				defaultExtPoint("https://d30y9cdsu7xlg0.cloudfront.net/png/35167-200.png"),
-				false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:R1'](bbox);out+skel;",
-name="#ex#&nbspES:R1 Backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R1.png"),
-true
-),
-
-		make_layer(
-				QURL + "?data=node[crossing=unmarked](bbox);out+skel;",
-				name="#c#&nbspcrossing=unmarked<hr>",
-				{
-					strokeColor:"grey",
-					strokeOpacity:0.9,
-					strokeWidth:2,
-					pointRadius:4,
-					fillColor:"blue",
-					fillOpacity:0.75
-				},
-				false
-			),
 /*
 	  		//highways
             make_layer(QURL + "?data=(way[highway=cycleway](bbox);node(w);way[highway=path][bicycle=designated](bbox);node(w););out+skel;", "red",name="#l#highway=cycleway", 5, false),
@@ -402,6 +348,62 @@ true
 				name="#l#highway=cycleway<hr>Route relations:",
 				defaultSolidLine("red"),
 				false),
+				
+										make_layer(
+				QURL + "?data=node[wheelchair=yes](bbox);out+skel;",
+				name="#ex#&nbspwheelchair=yes",
+				defaultExtPoint("https://image.flaticon.com/icons/png/512/9/9285.png"),
+				false
+			),
+
+			make_layer(
+				QURL + "?data=node['obstacle:wheelchair'=yes](bbox);out+skel;",
+				name="#c#&nbspobstacle:wheelchair=yes<hr>",
+				defaultPoint("black"),
+				false
+			),
+
+			make_layer(
+				QURL + "?data=node[crossing=traffic_signals](bbox);out+skel;",
+				name="#ex#&nbspcrossing=traffic_signals",
+				defaultExtPoint("http://icons.iconarchive.com/icons/google/noto-emoji-travel-places/1024/42571-vertical-traffic-light-icon.png"),
+				false
+			),
+
+			make_layer(
+				QURL + "?data=node[crossing=no](bbox);out+skel;",
+				name="#c#&nbspcrossing=no",
+				defaultPoint("red"),
+				false
+			),
+
+			make_layer(
+				QURL + "?data=node[crossing=uncontrolled](bbox);out+skel;",
+				name="#ex#&nbspcrossing=uncontrolled",
+				defaultExtPoint("https://d30y9cdsu7xlg0.cloudfront.net/png/35167-200.png"),
+				false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:R1'](bbox);out+skel;",
+name="#ex#&nbspES:R1 Backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R1.png"),
+true
+),
+
+		make_layer(
+				QURL + "?data=node[crossing=unmarked](bbox);out+skel;",
+				name="#c#&nbspcrossing=unmarked<hr>",
+				{
+					strokeColor:"grey",
+					strokeOpacity:0.9,
+					strokeWidth:2,
+					pointRadius:4,
+					fillColor:"blue",
+					fillOpacity:0.75
+				},
+				false
+			),
+
 /*
 			//LF-routes
 			make_layer(QURL + "?data=(relation[route=bicycle][network=ncn](bbox);way(r)(bbox);node(w););out+skel;", "blue",name="#l#NCN route <i>(LF route)</i>", 12, false,"@0.6"),
