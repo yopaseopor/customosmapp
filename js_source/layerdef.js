@@ -272,16 +272,16 @@ function layerdef(type){
 			),
 
 			make_layer(
-				QURL + "?data=node[wheelchair=designated](bbox);out+skel;",
-				name="#c#&nbspwheelchair=designated",
-				defaultPoint("blue"),
+				QURL + "?data=node[wheelchair=limited](bbox);out+skel;",
+				name="#c#&nbspwheelchair=limited",
+				defaultPoint2("blue"),
 				false
 			),
 
 			make_layer(
 				QURL + "?data=node[wheelchair=yes](bbox);out+skel;",
 				name="#c#&nbspwheelchair=yes<hr>",
-				defaultPoint("yellow"),
+				defaultPoint3("yellow"),
 				false
 			),
 			
