@@ -54,7 +54,7 @@ var browser = "";
 	var map;
 	var tabtype = {
 	//MODIFICAR
-		name: "points",
+		name: "test",
 			clearall: function (){ //functie voor toekomstig gebruik
 				for (i = map.layers.length - 1; i > 1; i--) { 
 					if (map.layers[i].isBaseLayer == false) { // only to overlays
@@ -178,7 +178,7 @@ function init(){
     </tr>
     <tr> 
       <td id="lines" class="dorment" style="border-right:1px solid #000000;" onclick="switchtab(this.id,tabtype.name);">lines</td>
-      <td id="points" class="dorment" style="border-right:1px solid #000000;" onclick="switchtab(this.id,tabtype.name);">points and cercles</td>
+      <td id="test" class="dorment" style="border-right:1px solid #000000;" onclick="switchtab(this.id,tabtype.name);">test tags</td>
       <td id="route" class="dorment" style="border-right:1px solid #000000;" onclick="switchtab(this.id,tabtype.name);">route tags</td>
 	  <td id="bugs" class="dorment" style="border-right:1px solid #000000;" onclick="switchtab(this.id,tabtype.name);">bugs in tags</td>
       <td id="clearall" class="action" style="border-right:1px solid #000000;" onclick="tabtype.clearall();">clear layers</td>	  
