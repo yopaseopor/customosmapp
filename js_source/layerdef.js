@@ -248,7 +248,7 @@ function layerdef(type){
 			graphicOpacity: 1,
 			graphicWidth:20,
 			graphicHeight:20,
-			graphicXOffset: -10,
+			graphicXOffset: -100,
 			graphicYOffset: 0,
 			rotation:0
 		});
