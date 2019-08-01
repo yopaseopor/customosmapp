@@ -109,6 +109,9 @@ function init(){
 		var OSMCh = new OpenLayers.Layer.XYZ("OSMCh","https://tile.osm.ch/switzerland/${z}/${x}/${y}.png",{'attribution': ' © <a href="https://www.openstreetmap.org/copyright/en" target="_blank">OpenStreetMap</a> contributors<br>Overlay data licensed under ODbL '}); 
 		map.addLayer(OSMCh);
 		
+		var OMS = new OpenLayers.Layer.XYZ("OpenMapSurfer","https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/${z}/${x}/${y}.png",{'attribution': '<a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> <a href="https://www.openstreetmap.org/copyright/en" target="_blank">OpenStreetMap</a> contributors<br>Overlay data licensed under ODbL '}); 
+		map.addLayer(OMS);
+		
 		var cycle = new OpenLayers.Layer.OSM("OpenCycleMap", ["https://a.tile.thunderforest.com/cycle/${z}/${x}/${y}.png?apikey=a5dd6a2f1c934394bce6b0fb077203eb", "https://b.tile.thunderforest.com/cycle/${z}/${x}/${y}.png?apikey=a5dd6a2f1c934394bce6b0fb077203eb", "https://c.tile.thunderforest.com/cycle/${z}/${x}/${y}.png?apikey=a5dd6a2f1c934394bce6b0fb077203eb"], { displayOutsideMaxExtent: true,numZoomLevels: 19, attribution: 'Open Cyclemap '}); map.addLayer(cycle);
 
 		var arcgis = new OpenLayers.Layer.XYZ("ArcGIS World Topo","https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/${z}/${y}/${x}",{'attribution': 'Cartography © <a href="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" target="_blank">ArcGIS</a><br>Overlay data OpenStreetMap contributors, licensed under ODbL '}); 
