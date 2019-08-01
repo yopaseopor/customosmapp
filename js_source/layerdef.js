@@ -365,9 +365,9 @@ function layerdef(type){
 			),
 			
 			make_layer(
-				QURL + "?data=(way[highway=cycleway](bbox);node(w);way[highway~'path$|^footway$'][bicycle=designated](bbox);node(w););out+skel;",
-				name="#ex#&nbspES:R1 Backward ",
-				offsetIcon("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R1.png"),
+				QURL + "?data=node['traffic_sign:forward'='ES:R2'](bbox);out+skel;",
+				name="#ex#&nbspES:R2 Forward ",
+				offsetIcon("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R2.png"),
 				true
 			),
 
