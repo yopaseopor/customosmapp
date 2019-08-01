@@ -52,7 +52,7 @@
 // COPIAR 		});
 // COPIAR 	}
 //	
-//	COPIAR	if (type == "nameofthetdid"){                         of index.html
+//	COPIAR	if (type == "nameofthetdid"){   of index.html
 //  COPIAR	map.addLayers([
 //	COPIAR  make_layer(QURL + "?data=(way[key=value](bbox);node(w);way[otherkey=othervalue](bbox);node(w););out+skel;",
 //  COPIAR  name="#typeoflineoriconinlegend#HTML code you want to show"
@@ -148,9 +148,9 @@ function layerdef(type){
 		{
 			strokeColor:color,
 			strokeOpacity:0.5,
-			strokeWidth:3,
-			pointRadius:5,
-			fillColor:"white",
+			strokeWidth:1,
+			pointRadius:3,
+			fillColor:"black",
 			fillOpacity:0.5
 		});
 	}
@@ -454,10 +454,10 @@ true
 			// Officiële LF routes van het Fietsplatform
 			var LFRoutes = new OpenLayers.Layer.WMS("<img style='vertical-align: middle;background-color: green;' src='img/line.gif'>&nbspOfficial LF routes (routedatabank.nl)",
 
-                                       "https://www.routedatabank.nl/geoserver/wms",
-                                       {layers: "routedatabank:lf_routes",
+                                       "http://geoserveis.icgc.cat/icc_mapesbase/wms/service?",
+                                       {layers: "orto25c",
 										transparent: true,
-										format: "image/gif"
+										format: "image/png"
 										},{
 										visibility: false
 										});
