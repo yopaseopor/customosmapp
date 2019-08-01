@@ -248,7 +248,7 @@ function layerdef(type){
 			graphicOpacity: 1,
 			graphicWidth:20,
 			graphicHeight:20,
-			graphicXOffset: -100,
+			graphicXOffset: 10,
 			graphicYOffset: 0,
 			rotation:0
 		});
@@ -404,7 +404,7 @@ function popuplinks(lonlat){
 	  
 	  
 	
-	  var area = 0.04
+	  var area = 0.01
 	  var ctop = lonlat.lat + area;
 	  var cbottom = ctop - (2 * area);
 	  var cleft = lonlat.lon - area;
