@@ -123,9 +123,9 @@ function layerdef(type){
 		{
 			strokeColor:color,
 			strokeOpacity:0.3,
-			strokeWidth:4,
+			strokeWidth:10,
 			strokeLinecap: "round",
-			strokeDashstyle: "1 3"
+			strokeDashstyle: "1 10"
 		});
 	}
 
