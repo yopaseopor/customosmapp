@@ -224,7 +224,7 @@ function layerdef(type){
 			graphicHeight:20,
 			graphicXOffset: -4,
 			graphicYOffset: 0,
-			rotation:4
+			rotation:45
 		});
 	}
 	
