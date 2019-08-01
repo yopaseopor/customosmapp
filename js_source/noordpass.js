@@ -86,7 +86,7 @@
 			}
 			else {
 				//MODIFICAR
-				link = link + "<span STYLE=\"font-size: 8pt; color: red;\">" + "(Zoom in for tag info)" + "</span>";
+				link = link + "<span STYLE=\"font-size: 8pt; color: red;\">" + "(Acércate para información de etiquetas)" + "</span>";
 				map.removePopup(popup);
 				popup.contentHTML = link;
 				map.addPopup(popup);
@@ -170,7 +170,7 @@
 	
 	function make_layer(data_url, name, styleParams, visible, dash) {
 	
-	//MODIFICAR ---- add an image if specified by  placehoder in name, placeholders are #l# > single line, #dl#>line line,#d#>dotted line,#to# dot in a map, #ex# for external image
+	//MODIFICAR ---- add an image if specified by placehoder in name, placeholders are #l# > single line, #dl#>line line,#d#>dotted line,#to# dot in a map, #ex# for external image
 	//	alert(name);
 	name = name.replace("#l#", "<img style='vertical-align: middle;background-color: " + styleParams.strokeColor + ";' src='img/line.gif'>&nbsp");
 	name = name.replace("#dl#", "<img style='vertical-align: middle;background-color: " + styleParams.strokeColor + ";' src='img/lineline.gif'>&nbsp");
@@ -204,6 +204,8 @@
 			}
 		}
 	}
+	
+	//MODIFICAR
 	function make_a_large_layer(data_url, color, name, zoom, size, visible, dash, opacity, radius, radopacity) {
 	var localstyle =  new OpenLayers.Style( {
 		strokeColor : color,

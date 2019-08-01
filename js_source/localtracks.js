@@ -20,13 +20,13 @@ OpenLayers.Control.LocalTracks=OpenLayers.Class(OpenLayers.Control,{
 //MODIFICAR Interficie
 	textButtonLabel: 'Cargar GPX',
 	textButtonTitle: 'Cargar archivo GPX',
-	textFileSizeWarning: 'The file "${name}" is ${size} Bytes big' +
-		String.fromCharCode(223) + '.\nLaden fortsetzen?',
+	textFileSizeWarning: 'El archivo "${name}" ocupa ${size} en bytes' +
+		String.fromCharCode(223) + '.\nContinuar cargando?',
 
 	trackLayerGroup: 'local',
 
 	trackStyle: {
-
+//MODIFICAR
 		strokeColor: '#000000',
 		strokeWidth: 6,
 		strokeOpacity: 0.7,

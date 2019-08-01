@@ -14,17 +14,17 @@
 // ====================
 // COPIAR 	
 // COPIAR Copy this if you want a line
-//COPIAR
-//COPIAR	function nameofthefunction(color){
-//COPIAR		return(
-//COPIAR		{
-//COPIAR			strokeColor:"color",
-//COPIAR			strokeOpacity:0.7,
-//COPIAR			strokeWidth:2,
-//COPIAR			strokeLinecap: "square",
-//COPIAR			strokeDashstyle: "1 0"
-//COPIAR		});
-//COPIAR	}
+// COPIAR
+// COPIAR	function nameofthefunction(color){
+// COPIAR		return(
+// COPIAR		{
+// COPIAR			strokeColor:"color",
+// COPIAR			strokeOpacity:0.7,
+// COPIAR			strokeWidth:2,
+// COPIAR			strokeLinecap: "square",
+// COPIAR			strokeDashstyle: "1 0"
+// COPIAR		});
+// COPIAR	}
 // COPIAR
 // COPIAR Copy this if you want a point
 // COPIAR	function nameofthefunction(color){
@@ -52,39 +52,39 @@
 // COPIAR 		});
 // COPIAR 	}
 //	
-//	COPIAR	if (type == "nameofthetdid"){   of index.html
-//  COPIAR	map.addLayers([
-//	COPIAR  make_layer(QURL + "?data=(way[key=value](bbox);node(w);way[otherkey=othervalue](bbox);node(w););out+skel;",
-//  COPIAR  name="#typeoflineoriconinlegend#HTML code you want to show"
-//  COPIAR  nameofthefunction("http://urloftheicon" or "color"),
-//  COPIAR  false
-//  COPIAR	),
-//  COPIAR  from "make_layer" to ), you can replicate to generate every overpass query then... (next line)
-//  COPIAR			]);
-//  COPIAR			
-//  COPIAR		}
+// COPIAR	if (type == "nameofthetdid"){   of index.html
+// COPIAR	map.addLayers([
+// COPIAR  make_layer(QURL + "?data=(way[key=value](bbox);node(w);way[otherkey=othervalue](bbox);node(w););out+skel;",
+// COPIAR  name="#typeoflineoriconinlegend#HTML code you want to show"
+// COPIAR  nameofthefunction("http://urloftheicon" or "color"),
+// COPIAR  false
+// COPIAR	),
+// COPIAR  from "make_layer" to ), you can replicate to generate every overpass query then... (next line)
+// COPIAR			]);
+// COPIAR			
+// COPIAR		}
 // VOCABULARI nameofthefuncition= name of the function, Each function with custom parameters has to have an unique name.
-//VOCABULARI
-//VOCABULARI strokeColor=color of the line
-//VOCABULARI strokeOpacity=0-1 transparency of the line
-//VOCABULARI strokeWidth=Width of the line
-//VOCABULARI strokeLinecap=Form of the cap of the line
-//VOCABULARI strokeDashstyle=start/end of the line pixels in which start the line, if it is discontinuous
-//VOCABULARI pointRadius=number in píxels for the radius of the point
-//VOCABULARI fillColor=color you want to fill the cercle
-//VOCABULARI fillOpacity=0-1 transparency of the filled cercle
-//VOCABULARI graphicOpacity=0-1 transparency of the icon
-//VOCABULARI graphicWidth=in pixels, width of the icon
-//VOCABULARI graphicHeight=in pixels, height of the icon
-//VOCABULARI graphicXOffset=in pixels, offset in x from the point of the icon
-//VOCABULARI graphicYOffset=in pixels, offset in y from the point of the icon
-//VOCABULARI rotation:in grades, rotation angle of the icon
-//VOCABULARI nameofthe td id you will find in index.html
-// INSTRUCCIONS #typeoflineoriconinlegend#: #l# = line, #dl#=discontinuous line, #d# = dashed line, #c#= cercle, #ex#=external icon
-
-// INSTRUCCIONS 
-// INSTRUCCIONS default active option true enabled false unabled
-// INSTRUCCIONS transparency = @0-1 transparency of the line
+// VOCABULARI
+// VOCABULARI strokeColor=color of the line
+// VOCABULARI strokeOpacity=0-1 transparency of the line
+// VOCABULARI strokeWidth=Width of the line
+// VOCABULARI strokeLinecap=Form of the cap of the line
+// VOCABULARI strokeDashstyle=start/end of the line pixels in which start the line, if it is discontinuous
+// VOCABULARI pointRadius=number in píxels for the radius of the point
+// VOCABULARI fillColor=color you want to fill the cercle
+// VOCABULARI fillOpacity=0-1 transparency of the filled cercle
+// VOCABULARI graphicOpacity=0-1 transparency of the icon
+// VOCABULARI graphicWidth=in pixels, width of the icon
+// VOCABULARI graphicHeight=in pixels, height of the icon
+// VOCABULARI graphicXOffset=in pixels, offset in x from the point of the icon
+// VOCABULARI graphicYOffset=in pixels, offset in y from the point of the icon
+// VOCABULARI rotation:in grades, rotation angle of the icon
+// VOCABULARI nameofthe td id you will find in index.html
+// VOCABULARI QURL + "?data=overpass query"
+// VOCABULARI #typeoflineoriconinlegend#: #l# = line, #dl#=discontinuous line, #d# = dashed line, #c#= cercle,#to# = point #ex#=external icon
+// VOCABULARI nameofthefunction("color")
+// VOCABULARI false or true default active option true enabled false unabled
+// VOCABULARI Also you can custom the option to show the legend
 //
 
 function layerdef(type){
@@ -385,10 +385,6 @@ function popuplinks(lonlat){
 	  var thelink = "<div STYLE=\"margin:0px 0px 0px 0px;font-size: 8pt;\"><b>MAPA</b><br><a href=\"http://www.openstreetmap.org?lat=" + lonlat.lat + "&lon=" + lonlat.lon + "&zoom=17\" target=\"_blank\"><img src='img/osm.gif'>OSM</a>&nbsp&nbsp"
 	  //COPIAR You can configure all services give you longitud and latitude and specific zoom in URL
 	  //COPIAR thelink = thelink + "<a href=\"url" + lonlat.lat + "," + lonlat.lon + "zoomcode" target=\"_blank\"><img src='url icon'>Name of the service</a>&nbsp&nbsp";
-	  //COPIAR Puedes configurar todo aquel servicio que te dé longitud (lonlat.lon) y latitud (lonla.lat) y un zoom concreto en la URL
-	  //COPIAR thelink = thelink + "<a href=\"url" + lonlat.lat + "," + lonlat.lon + "codigozoom" target=\"_blank\"><img src='url icono'>Nombre del servicio</a>&nbsp&nbsp";
-	  //COPIAR Pots configurar tots aquells serveis que et donin longitud i latitud i un zoom concre a l'adreça URL
-	  //COPIAR thelink = thelink + "<a href=\"url" + lonlat.lat + "," + lonlat.lon + "codizoom" target=\"_blank\"><img src='url icona'>Nom del servei</a>&nbsp&nbsp";
 	  thelink = thelink + "<a href=\"https://maps.google.es/maps?ll=" + lonlat.lat + "," + lonlat.lon + "&t=h&z=17\" target=\"_blank\"><img src='img/google.gif'>Google</a>&nbsp&nbsp";
 	  thelink = thelink + "<a href=\"http://www.bing.com/maps/?v=2&cp=" + lonlat.lat + "~" + lonlat.lon + "&lvl=17&dir=0&sty=h&form=LMLTCC\" target=\"_blank\"><img src='img/bing.gif'>Bing</a><p>";
 	  thelink = thelink + "<a href=\"https://wego.here.com/?map="  + (lonlat.lat) + "," + (lonlat.lon ) + "17,normal"  + "\" target=\"_blank\"><img src='img/here.png'>Here</a><hr>";
@@ -402,13 +398,11 @@ function popuplinks(lonlat){
 	  thelink = thelink + "<b>TRANSPORTE</b><br><a href=\"http://www.openstreetmap.org?lat=" + lonlat.lat + "&lon=" + lonlat.lon + "&zoom=17&layers=TB\" target=\"_blank\"><img src='img/osm.gif'>OSM Public Transport</a>"
 	  thelink = thelink + "<a href=\"http://www.xn--pnvkarte-m4a.de/#" + lonlat.lon + ";" + lonlat.lat + ";15" + "\" target=\"_blank\"><img src='img/opvnkarte.png'>Opvnkarte</a><hr> ";
 	  
-	  
-	
-	  var area = 0.002
+	  var area = 0.01
 	  var ctop = lonlat.lat + area;
-	  var cbottom = ctop - (10 * area);
+	  var cbottom = ctop - (2 * area);
 	  var cleft = lonlat.lon - area;
-	  var cright = cleft + (10 * area); 
+	  var cright = cleft + (2 * area); 
 	  
 	  thelink = thelink + "<b>Editar :</b><br><a href=\"http://localhost:8111/load_and_zoom?top=" + ctop + "&bottom=" + cbottom + "&left=" + cleft + "&right=" + cright + "\" target=\"josm_frame\">JOSM (necesitas conector)</a><br>";
 	  thelink = thelink + "<a href=\"http://www.openstreetmap.org/edit?editor=id&lat=" + lonlat.lat + "&lon=" + lonlat.lon + "&zoom=17\" target=\"_blank\">Editor iD</a><br>&nbsp&nbsp";
