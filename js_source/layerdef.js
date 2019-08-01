@@ -283,7 +283,7 @@ function layerdef(type){
 			make_layer(
 				QURL + "?data=node[wheelchair=yes](bbox);out+skel;",
 				name="#d#&nbspwheelchair=yes<hr>",
-				defaultPoint3("yellow"),
+				defaultPoint3("black"),
 				false
 			),
 			
