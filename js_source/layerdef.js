@@ -101,7 +101,7 @@ function layerdef(type){
 		return(
 		{
 			strokeColor:color,
-			strokeOpacity:0.7,
+			strokeOpacity:1,
 			strokeWidth:1,
 			strokeLinecap: "square",
 		});
