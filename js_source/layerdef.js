@@ -202,7 +202,7 @@ function layerdef(type){
 		});
 	}
 	
-		function tsforward(url){
+		function defaultIcon(url){
 		return (
 		{
 			externalGraphic:url,
@@ -215,15 +215,28 @@ function layerdef(type){
 		});
 	}
 	
-		function tsbackward(url){
+		function opacityIcon(url){
 		return (
 		{
 			externalGraphic:url,
+			graphicOpacity: 0.75,
 			graphicWidth:20,
 			graphicHeight:20,
 			graphicXOffset: -4,
 			graphicYOffset: 0,
-			graphicName:"test",
+			rotation:180
+		});
+	}
+	
+		function rotated(url){
+		return (
+		{
+			externalGraphic:url,
+			graphicOpacity: 0.75,
+			graphicWidth:20,
+			graphicHeight:20,
+			graphicXOffset: -4,
+			graphicYOffset: 0,
 			rotation:180
 		});
 	}
@@ -288,6 +301,20 @@ function layerdef(type){
 				false
 			),
 			
+			make_layer(
+				QURL + "?data=node[crossing=unmarked](bbox);out+skel;",
+				name="#c#&nbspcrossing=unmarked<hr>",
+				{
+					strokeColor:"grey",
+					strokeOpacity:0.9,
+					strokeWidth:2,
+					pointRadius:4,
+					fillColor:"blue",
+					fillOpacity:0.75
+				},
+				false
+			),
+			
 			
 		]);
 	}	
@@ -323,19 +350,7 @@ tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_sig
 true
 ),
 
-		make_layer(
-				QURL + "?data=node[crossing=unmarked](bbox);out+skel;",
-				name="#c#&nbspcrossing=unmarked<hr>",
-				{
-					strokeColor:"grey",
-					strokeOpacity:0.9,
-					strokeWidth:2,
-					pointRadius:4,
-					fillColor:"blue",
-					fillOpacity:0.75
-				},
-				false
-			),
+
 
 /*
 			//LF-routes
