@@ -284,7 +284,7 @@ function layerdef(type){
 	
 	
 	
-	if (type == "test"){
+	if (type == "points"){
 		
 		map.addLayers([
 /*			
