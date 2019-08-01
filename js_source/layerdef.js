@@ -452,7 +452,7 @@ true
 			]);
 	
 			// Officiële LF routes van het Fietsplatform
-			var LFRoutes = new OpenLayers.Layer.WMS("<img style='vertical-align: middle;background-color: green;' src='img/line.gif'>&nbspOfficial LF routes (routedatabank.nl)",
+			var LFRoutes = new OpenLayers.Layer.WMS("<img style='vertical-align: middle;background-color: red;' src='img/line.gif'>&nbspOfficial LF routes (routedatabank.nl)",
 
                                        "http://mapcache.icc.cat/icc_mapesmultibase/utm/wms/service?",
                                        {layers: "orto",
