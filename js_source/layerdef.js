@@ -160,37 +160,12 @@ function layerdef(type){
 		{
 			strokeColor:color,
 			strokeOpacity:1,
-			strokeWidth:3,
-			pointRadius:5,
-			fillColor:"white",
+			strokeWidth:4,
+			pointRadius:2,
+			fillColor:"red",
 			fillOpacity:0
 		});
 	}
-	
-		function defaultPoint4(color){
-		return (
-		{
-			strokeColor:color,
-			strokeOpacity:0.9,
-			strokeWidth:3,
-			pointRadius:7,
-			fillColor:"white",
-			fillOpacity:0
-		});
-	}
-	
-			function defaultPoint5(color){
-		return (
-		{
-			strokeColor:color,
-			strokeOpacity:0.9,
-			strokeWidth:3,
-			pointRadius:9,
-			fillColor:"white",
-			fillOpacity:0
-		});
-	}
-	
 	
 
 	/*
@@ -265,29 +240,17 @@ function layerdef(type){
 				defaultSolidLine("cyan"),
 				false),
 			
-/*			  
 
-*/
 		]);
 	}
 	
 	
 	
-	if (type == "test"){
+	if (type == "points"){
 		
 		map.addLayers([
-/*			
-			make_layer(QURL + "?data=node[kerb=lowered](bbox);out+skel;", "#66ff66", name="#c#&nbspkerb=lowered", 3, false),
-			make_layer(QURL + "?data=node[kerb=raised](bbox);out+skel;", "#ff3300", name="#c#&nbspkerb=raised", 3, false),
-			make_layer(QURL + "?data=node[kerb=flush](bbox);out+skel;", "#0066ff", name="#c#&nbspkerb=flush", 3, false),
-			make_layer(QURL + "?data=node[kerb=no](bbox);out+skel;", "#ffff00", name="#c#&nbspkerb=no<hr>", 3, false),
-*/
-			make_layer(
-				QURL + "?data=node[wheelchair=yes](bbox);out+skel;",
-				name="#ex#&nbspwheelchair=yes",
-				defaultExtPoint("https://image.flaticon.com/icons/png/512/9/9285.png"),
-				false
-			),
+
+
 
 			make_layer(
 				QURL + "?data=node[wheelchair=no](bbox);out+skel;",
@@ -297,16 +260,36 @@ function layerdef(type){
 			),
 
 			make_layer(
-				QURL + "?data=node[wheelchair=designated](bbox);out+skel;",
-				name="#c#&nbspwheelchair=designated",
-				defaultPoint("blue"),
+				QURL + "?data=node[wheelchair=yes](bbox);out+skel;",
+				name="#c#&nbspwheelchair=yes",
+				defaultPoint2("blue"),
 				false
 			),
 
 			make_layer(
 				QURL + "?data=node[wheelchair=limited](bbox);out+skel;",
 				name="#c#&nbspwheelchair=limited<hr>",
-				defaultPoint("yellow"),
+				defaultPoint3("yellow"),
+				false
+			),
+			
+			]);
+	}			
+		if (type == "route"){
+
+			map.addLayers([
+			
+			//highway=cycleway
+			make_layer(
+				QURL + "?data=(way[highway=cycleway](bbox);node(w);way[highway=path][bicycle=designated](bbox);node(w););out+skel;",
+				name="#l#highway=cycleway<hr>Route relations:",
+				defaultSolidLine("red"),
+				false),
+				
+					make_layer(
+				QURL + "?data=node[wheelchair=yes](bbox);out+skel;",
+				name="#ex#&nbspwheelchair=yes",
+				defaultExtPoint("https://image.flaticon.com/icons/png/512/9/9285.png"),
 				false
 			),
 
@@ -404,19 +387,6 @@ true
 			 
 			 make_layer(QURL + "?data=(way[smoothness~'^very_bad|^horrible|^very_horrible|^impassable'](bbox);node(w););out+skel;","#00FFFF", 
 			 name="#l#smoothness very bad", 4, false)
-*/			 
-			]);
-	}			
-		if (type == "route"){
-
-			map.addLayers([
-			
-			//highway=cycleway
-			make_layer(
-				QURL + "?data=(way[highway=cycleway](bbox);node(w);way[highway=path][bicycle=designated](bbox);node(w););out+skel;",
-				name="#l#highway=cycleway<hr>Route relations:",
-				defaultSolidLine("red"),
-				false),
 /*
 			//LF-routes
 			make_layer(QURL + "?data=(relation[route=bicycle][network=ncn](bbox);way(r)(bbox);node(w););out+skel;", "blue",name="#l#NCN route <i>(LF route)</i>", 12, false,"@0.6"),
@@ -447,9 +417,10 @@ true
 						
  			// cyclable ways
 			make_layer(QURL + "?data=(way[highway][highway!~'^motorway|^trunk|^foot|^path|^pedes|^platform|^steps|^bridleway|^prop|^constr'][access!~'^no|^priv'][bicycle!=no][horse!=designated][tracktype!~'grade4|grade5'](bbox);node(w);way[highway][access~'^no|^priv'][bicycle~'^yes|^desig|^offic|^destin|^permis'](bbox);node(w);way[highway~'^foot|^path|^pedes|^platform|^steps|^bridleway|^prop|^constr|^trunk|^motor'][bicycle~'^yes|^desig|^offic|^destin|^permis'](bbox);node(w);way[highway~'^foot|^path|^pedes|^platform|^steps|^bridleway|^prop|^constr'][mtb~'^yes|^desig|^offic|^destin|^permis'](bbox);node(w);way[highway=steps]['ramp:bicycle'=yes](bbox);node(w);way[route=ferry][bicycle!=no](bbox);node(w););out+skel;", "#39ff00",name="<img style='vertical-align: middle;background-color:#39ff00;' src='img/line.gif'> 'cycleable' ways<hr>", 4, false,"@0.6")
-			
-*/
-			]);
+*/			
+		]);
+	}
+	
 	
 			// Officiële LF routes van het Fietsplatform
 			var LFRoutes = new OpenLayers.Layer.WMS("<img style='vertical-align: middle;background-color: red;' src='img/line.gif'>&nbspOfficial LF routes (routedatabank.nl)",
