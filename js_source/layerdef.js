@@ -160,7 +160,7 @@ function layerdef(type){
 			strokeColor:color,
 			strokeOpacity:1,
 			strokeWidth:2,
-			pointRadius:4,
+			pointRadius:8,
 			fillColor:"green",
 			fillOpacity:0
 		});
@@ -282,7 +282,7 @@ function layerdef(type){
 
 			make_layer(
 				QURL + "?data=node[wheelchair=yes](bbox);out+skel;",
-				name="#d#&nbspwheelchair=yes<hr>",
+				name="#to#&nbspwheelchair=yes<hr>",
 				defaultPoint3("black"),
 				false
 			),
