@@ -80,7 +80,7 @@
 //VOCABULARI graphicYOffset=in pixels, offset in y from the point of the icon
 //VOCABULARI rotation:in grades, rotation angle of the icon
 //VOCABULARI nameofthe td id you will find in index.html
-// INSTRUCCIONS #typeoflineoriconinlegend#: #l# = line, #dl#=discontinuous line, #d# = dashed line, #c#= transparent, #co# = cercle opaque #ex#=external icon
+// INSTRUCCIONS #typeoflineoriconinlegend#: #l# = line, #dl#=discontinuous line, #d# = dashed line, #c#= cercle, #ex#=external icon
 
 // INSTRUCCIONS 
 // INSTRUCCIONS default active option true enabled false unabled
