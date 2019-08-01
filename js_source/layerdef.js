@@ -464,10 +464,10 @@ true
 			map.addLayer(LFRoutes);		
 			
 			var fietsnetwerk1 = new OpenLayers.Layer.WMS("<img style='vertical-align: middle;background-color: green;' src='img/line.gif'>&nbspOfficial cycle node network (routedatabank.nl)",
-                                       "https://www.routedatabank.nl/geoserver/wms",
-                                       {layers: "routedatabank:fietsnetwerken_vrij",
+                                       "http://geoserveis.icgc.cat/icc_mapesbase/wms",
+                                       {layers: "orto25c",
 										transparent: true,
-										format: "image/gif"
+										format: "image/png"
 										},{
 										visibility: false
 										});
