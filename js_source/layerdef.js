@@ -271,7 +271,9 @@ function layerdef(type){
 				name="#c#&nbspwheelchair=limited<hr>",
 				defaultPoint3("yellow"),
 				false
-		]);
+			),
+			
+			]);
 	}			
 		if (type == "route"){
 
