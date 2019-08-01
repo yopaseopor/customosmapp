@@ -198,7 +198,7 @@ function layerdef(type){
 			externalGraphic:url,
 			graphicWidth:16,
 			graphicHeight:16,
-			rotation:125
+			rotation:0
 		});
 	}
 	
@@ -209,7 +209,7 @@ function layerdef(type){
 			graphicOpacity: 1,
 			graphicWidth:20,
 			graphicHeight:20,
-			graphicXOffset: 4,
+			graphicXOffset: 0,
 			graphicYOffset: 0,
 			rotation:0
 		});
@@ -222,7 +222,7 @@ function layerdef(type){
 			graphicOpacity: 1,
 			graphicWidth:20,
 			graphicHeight:20,
-			graphicXOffset: -4,
+			graphicXOffset: 0,
 			graphicYOffset: 0,
 			rotation:45
 		});
@@ -235,7 +235,20 @@ function layerdef(type){
 			graphicOpacity: 0.35,
 			graphicWidth:20,
 			graphicHeight:20,
-			graphicXOffset: -4,
+			graphicXOffset: 0,
+			graphicYOffset: 0,
+			rotation:0
+		});
+	}
+	
+		function offsetIcon(url){
+		return (
+		{
+			externalGraphic:url,
+			graphicOpacity: 0.35,
+			graphicWidth:20,
+			graphicHeight:20,
+			graphicXOffset: -10,
 			graphicYOffset: 0,
 			rotation:0
 		});
@@ -354,7 +367,7 @@ function layerdef(type){
 			make_layer(
 				QURL + "?data=(way[highway=cycleway](bbox);node(w);way[highway~'path$|^footway$'][bicycle=designated](bbox);node(w););out+skel;",
 				name="#ex#&nbspES:R1 Backward ",
-				opacityIcon("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R1.png"),
+				offsetIcon("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R1.png"),
 				true
 			),
 
