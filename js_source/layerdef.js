@@ -275,14 +275,14 @@ function layerdef(type){
 
 			make_layer(
 				QURL + "?data=node[wheelchair=limited](bbox);out+skel;",
-				name="#d#&nbspwheelchair=limited",
+				name="#c#&nbspwheelchair=limited",
 				defaultPoint2("blue"),
 				false
 			),
 
 			make_layer(
 				QURL + "?data=node[wheelchair=yes](bbox);out+skel;",
-				name="#c#&nbspwheelchair=yes<hr>",
+				name="#d#&nbspwheelchair=yes<hr>",
 				defaultPoint3("yellow"),
 				false
 			),
