@@ -118,7 +118,7 @@ function layerdef(type){
 		});
 	}
 	
-		function defaultDashedLine(color){
+		function defaultDiscontinuousLine(color){
 		return(
 		{
 			strokeColor:color,
@@ -273,7 +273,7 @@ function layerdef(type){
             make_layer(
 				QURL + "?data=(way[highway=cycleway][segregated=yes](bbox);node(w););out+skel;", 
 				name="#dl#cycleway segregated=yes",
-				defaultSolidLine("cyan"),
+				defaultDiscontinuousLine("cyan"),
 				false),
 			
 /*			  
