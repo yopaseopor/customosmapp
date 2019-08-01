@@ -245,7 +245,7 @@ function layerdef(type){
 		return (
 		{
 			externalGraphic:url,
-			graphicOpacity: 0.35,
+			graphicOpacity: 1,
 			graphicWidth:20,
 			graphicHeight:20,
 			graphicXOffset: -10,
