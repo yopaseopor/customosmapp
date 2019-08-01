@@ -219,7 +219,7 @@ function layerdef(type){
 		return (
 		{
 			externalGraphic:url,
-			graphicOpacity: 0.75,
+			graphicOpacity: 1,
 			graphicWidth:20,
 			graphicHeight:20,
 			graphicXOffset: -4,
@@ -346,6 +346,13 @@ function layerdef(type){
 
 			make_layer(
 				QURL + "?data=node['traffic_sign:backward'='ES:R1'](bbox);out+skel;",
+				name="#ex#&nbspES:R1 Backward ",
+				opacityIcon("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R1.png"),
+				true
+			),
+			
+			make_layer(
+				QURL + "?data=(way[highway=cycleway](bbox);node(w);way[highway~'path$|^footway$'][bicycle=designated](bbox);node(w););out+skel;",
 				name="#ex#&nbspES:R1 Backward ",
 				opacityIcon("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R1.png"),
 				true
