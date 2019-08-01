@@ -206,7 +206,7 @@ function layerdef(type){
 		return (
 		{
 			externalGraphic:url,
-			graphicOpacity: 0.75,
+			graphicOpacity: 1,
 			graphicWidth:20,
 			graphicHeight:20,
 			graphicXOffset: 4,
@@ -215,29 +215,29 @@ function layerdef(type){
 		});
 	}
 	
+		function rotatedIcon(url){
+		return (
+		{
+			externalGraphic:url,
+			graphicOpacity: 0.75,
+			graphicWidth:20,
+			graphicHeight:20,
+			graphicXOffset: -4,
+			graphicYOffset: 0,
+			rotation:4
+		});
+	}
+	
 		function opacityIcon(url){
 		return (
 		{
 			externalGraphic:url,
-			graphicOpacity: 0.75,
+			graphicOpacity: 0.35,
 			graphicWidth:20,
 			graphicHeight:20,
 			graphicXOffset: -4,
 			graphicYOffset: 0,
-			rotation:180
-		});
-	}
-	
-		function rotated(url){
-		return (
-		{
-			externalGraphic:url,
-			graphicOpacity: 0.75,
-			graphicWidth:20,
-			graphicHeight:20,
-			graphicXOffset: -4,
-			graphicYOffset: 0,
-			rotation:180
+			rotation:0
 		});
 	}
 	
@@ -333,22 +333,23 @@ function layerdef(type){
 			make_layer(
 				QURL + "?data=node[crossing=traffic_signals](bbox);out+skel;",
 				name="#ex#&nbspcrossing=traffic_signals",
-				defaultExtPoint("http://icons.iconarchive.com/icons/google/noto-emoji-travel-places/1024/42571-vertical-traffic-light-icon.png"),
+				defaultIcon("http://icons.iconarchive.com/icons/google/noto-emoji-travel-places/1024/42571-vertical-traffic-light-icon.png"),
 				false
 			),
 
 			make_layer(
 				QURL + "?data=node[crossing=uncontrolled](bbox);out+skel;",
 				name="#ex#&nbspcrossing=uncontrolled",
-				defaultExtPoint("https://d30y9cdsu7xlg0.cloudfront.net/png/35167-200.png"),
+				rotatedIcon("https://d30y9cdsu7xlg0.cloudfront.net/png/35167-200.png"),
 				false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:R1'](bbox);out+skel;",
-name="#ex#&nbspES:R1 Backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R1.png"),
-true
-),
+			),
+
+			make_layer(
+				QURL + "?data=node['traffic_sign:backward'='ES:R1'](bbox);out+skel;",
+				name="#ex#&nbspES:R1 Backward ",
+				opacityIcon("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R1.png"),
+				true
+			),
 
 
 
