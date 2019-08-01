@@ -171,39 +171,13 @@ function layerdef(type){
 		{
 			strokeColor:color,
 			strokeOpacity:1,
-			strokeWidth:3,
-			pointRadius:5,
-			fillColor:"white",
+			strokeWidth:2,
+			pointRadius:4,
+			fillColor:"green",
 			fillOpacity:0
 		});
 	}
 	
-		function defaultPoint4(color){
-		return (
-		{
-			strokeColor:color,
-			strokeOpacity:0.9,
-			strokeWidth:3,
-			pointRadius:7,
-			fillColor:"white",
-			fillOpacity:0
-		});
-	}
-	
-			function defaultPoint5(color){
-		return (
-		{
-			strokeColor:color,
-			strokeOpacity:0.9,
-			strokeWidth:3,
-			pointRadius:9,
-			fillColor:"white",
-			fillOpacity:0
-		});
-	}
-	
-	
-
 	/*
 	 * external Point Parameters:
 	 * {
@@ -287,18 +261,8 @@ function layerdef(type){
 	if (type == "points"){
 		
 		map.addLayers([
-/*			
-			make_layer(QURL + "?data=node[kerb=lowered](bbox);out+skel;", "#66ff66", name="#c#&nbspkerb=lowered", 3, false),
-			make_layer(QURL + "?data=node[kerb=raised](bbox);out+skel;", "#ff3300", name="#c#&nbspkerb=raised", 3, false),
-			make_layer(QURL + "?data=node[kerb=flush](bbox);out+skel;", "#0066ff", name="#c#&nbspkerb=flush", 3, false),
-			make_layer(QURL + "?data=node[kerb=no](bbox);out+skel;", "#ffff00", name="#c#&nbspkerb=no<hr>", 3, false),
-*/
-			make_layer(
-				QURL + "?data=node[wheelchair=yes](bbox);out+skel;",
-				name="#ex#&nbspwheelchair=yes",
-				defaultExtPoint("https://image.flaticon.com/icons/png/512/9/9285.png"),
-				false
-			),
+
+
 
 			make_layer(
 				QURL + "?data=node[wheelchair=no](bbox);out+skel;",
@@ -315,9 +279,17 @@ function layerdef(type){
 			),
 
 			make_layer(
-				QURL + "?data=node[wheelchair=limited](bbox);out+skel;",
-				name="#c#&nbspwheelchair=limited<hr>",
+				QURL + "?data=node[wheelchair=yes](bbox);out+skel;",
+				name="#c#&nbspwheelchair=yes<hr>",
 				defaultPoint("yellow"),
+				false
+			),
+			
+			
+						make_layer(
+				QURL + "?data=node[wheelchair=yes](bbox);out+skel;",
+				name="#ex#&nbspwheelchair=yes",
+				defaultExtPoint("https://image.flaticon.com/icons/png/512/9/9285.png"),
 				false
 			),
 
