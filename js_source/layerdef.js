@@ -463,13 +463,13 @@ true
 										});
 			map.addLayer(LFRoutes);		
 			
-			var fietsnetwerk1 = new OpenLayers.Layer.WMS("<img style='vertical-align: middle;background-color: blue;' src='img/line.gif'>&nbspOfficial cycle node network (routedatabank.nl)",
+			var fietsnetwerk1 = new OpenLayers.Layer.WMS("<img style='vertical-align: middle;background-color: green;' src='img/line.gif'>&nbspOfficial cycle node network (routedatabank.nl)",
                                        "http://mapcache.icc.cat/icc_mapesmultibase/utm/wms",
                                        {layers: "orto",
 										transparent: true,
 										format: "image/png"
 										},{
-										visibility: false
+										visibility: true
 										});
 			map.addLayer(fietsnetwerk1);	
 			
