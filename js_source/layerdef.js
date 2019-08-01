@@ -223,6 +223,7 @@ function layerdef(type){
 			graphicHeight:20,
 			graphicXOffset: -4,
 			graphicYOffset: 0,
+			graphicName:"test",
 			rotation:180
 		});
 	}
@@ -288,68 +289,14 @@ function layerdef(type){
 			),
 			
 			
-/*
-	  		//highways
-            make_layer(QURL + "?data=(way[highway=cycleway](bbox);node(w);way[highway=path][bicycle=designated](bbox);node(w););out+skel;", "red",name="#l#highway=cycleway", 5, false),
-			  
-			make_layer(QURL + "?data=(way[highway=footway](bbox);node(w););out+skel;","#bd958b",name="#l#highway=footway", 5, false,"@0.8"),
-			
-			make_layer(QURL + "?data=(way[highway=path][bicycle!~'^designated'](bbox);node(w););out+skel;","#7b9541",name="#l#highway=path", 5, false,"@0.8"),
-			
-			make_layer(QURL + "?data=(way[highway=pedestrian](bbox);node(w););out+skel;", "#ff6500",name="#l#highway=pedestrian",5, false),
-			  
-			// tracks & tracktype
-			make_layer(QURL + "?data=(way[highway=track](bbox);node(w););out+skel;","#bd9520",
-			name="#l#highway=track", 5, false,"@0.8"),
-			
-            make_layer(QURL + "?data=(way[tracktype=grade1](bbox);node(w););out+skel;","#330000",name="#l#tracktype=grade1", 2, false),
-			
-			make_layer(QURL + "?data=(way[tracktype=grade2](bbox);node(w););out+skel;","#330000",name="#dl#tracktype=grade2", 3, false,"4 8"),
-			
-			make_layer(QURL + "?data=(way[tracktype=grade3](bbox);node(w););out+skel;","#A52A2A",name="#dl#tracktype=grade3", 2, false,"4 8"),
-			
-			make_layer(QURL + "?data=(way[tracktype=grade4](bbox);node(w););out+skel;","#A52A2A",name="#d#tracktype=grade4", 2, false,"1 6"),
-			
-			make_layer(QURL + "?data=(way[tracktype=grade5](bbox);node(w););out+skel;","black",name="#d#tracktype=grade5", 1, false,"1 3"),
-			
-			make_layer(QURL + "?data=(way[highway=track][tracktype!~'^grade'](bbox);node(w););out+skel;","white",name="#dl#tracktype unknown", 2, false,"4 8"),
-			
-			make_layer(QURL + "?data=(way[highway=track][cycleway](bbox);node(w););out+skel;","#ff008b",name="#dl#highway=track &<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspcycleway=*",5, false,"4 8"),
+		]);
+	}	
+	
+	if (type == "icons"){
 
-			// surface on paths & tracks
-			make_layer(QURL + "?data=(way[highway~'^cycle|^foot|^path|^pedestrian|^track'][surface~'^asphalt|^pav|^concrete'](bbox);node(w););out+skel;","#000080",name="#l#surface = paved", 2, false,"@0.8"),
-			 
-			make_layer(QURL + "?data=(way[surface~'^cob'](bbox);node(w););out+skel;","#000080",name="#dl#surface=cobblestone", 4, false,"4 8@0.8"),
-			
-			make_layer(QURL + "?data=(way[surface~'^fine_gravel|.shell.'](bbox);node(w););out+skel;","#3965d5",name="#dl#surface=fine_gravel/shells", 3, false,"4 8@0.8"),
-			
-			// semi paved
-			make_layer(QURL + "?data=(way[surface~'^gravel|^compact|^loam'](bbox);node(w););out+skel;","yellow",name="#dl#surface = semi-paved", 3, false,"4 8@0.8"),
-			
-			// unpaved
-			make_layer(QURL + "?data=(way[surface~'^grass|^ground|^unpaved|^dirt|^earth|^sand|^woodchips|^pebble'](bbox);node(w););out+skel;","yellow",name="#d#surface = unpaved", 2, false,"1 3@0.8"),
-
-			 // smoothness
-			 make_layer(QURL + "?data=(way[smoothness=bad](bbox);node(w););out+skel;","#00FFFF", 
-			 name="#dl#smoothness=bad", 3, false,"4 8"),
-			 
-			 make_layer(QURL + "?data=(way[smoothness~'^very_bad|^horrible|^very_horrible|^impassable'](bbox);node(w););out+skel;","#00FFFF", 
-			 name="#l#smoothness very bad", 4, false)
-*/			 
-			]);
-	}			
-		if (type == "route"){
-
-			map.addLayers([
-			
-			//highway=cycleway
-			make_layer(
-				QURL + "?data=(way[highway=cycleway](bbox);node(w);way[highway=path][bicycle=designated](bbox);node(w););out+skel;",
-				name="#l#highway=cycleway<hr>Route relations:",
-				defaultSolidLine("red"),
-				false),
+		map.addLayers([
 				
-										make_layer(
+			make_layer(
 				QURL + "?data=node[wheelchair=yes](bbox);out+skel;",
 				name="#ex#&nbspwheelchair=yes",
 				defaultExtPoint("https://image.flaticon.com/icons/png/512/9/9285.png"),
@@ -357,23 +304,9 @@ function layerdef(type){
 			),
 
 			make_layer(
-				QURL + "?data=node['obstacle:wheelchair'=yes](bbox);out+skel;",
-				name="#c#&nbspobstacle:wheelchair=yes<hr>",
-				defaultPoint("black"),
-				false
-			),
-
-			make_layer(
 				QURL + "?data=node[crossing=traffic_signals](bbox);out+skel;",
 				name="#ex#&nbspcrossing=traffic_signals",
 				defaultExtPoint("http://icons.iconarchive.com/icons/google/noto-emoji-travel-places/1024/42571-vertical-traffic-light-icon.png"),
-				false
-			),
-
-			make_layer(
-				QURL + "?data=node[crossing=no](bbox);out+skel;",
-				name="#c#&nbspcrossing=no",
-				defaultPoint("red"),
 				false
 			),
 
