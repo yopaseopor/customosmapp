@@ -112,9 +112,9 @@ function layerdef(type){
 		{
 			strokeColor:color,
 			strokeOpacity:0.7,
-			strokeWidth:2,
-			strokeLinecap: "square",
-			strokeDashstyle: "6 10"
+			strokeWidth:10,
+			strokeLinecap: "round",
+			strokeDashstyle: "1 10"
 		});
 	}
 	
@@ -123,9 +123,9 @@ function layerdef(type){
 		{
 			strokeColor:color,
 			strokeOpacity:0.3,
-			strokeWidth:10,
-			strokeLinecap: "round",
-			strokeDashstyle: "1 10"
+			strokeWidth:5,
+			strokeLinecap: "square",
+			strokeDashstyle: "6 10"
 		});
 	}
 
