@@ -859,7 +859,7 @@ var config = {
 		{
 			group: 'Test',
 			title: 'Vending Parking Tickets',
-			geojson: 'export2.geojson',
+			geojson: 'export2.json',
 			iconSrc: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_B1a.png',
 			style: function () {
 				var style = new ol.style.Style({
