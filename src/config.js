@@ -970,8 +970,8 @@ var config = {
 							})
 						})
 					},
-					'natural': {
-						'tree': new ol.style.Style({
+					'traffic_sign:forward': {
+						'ES:R2': new ol.style.Style({
 							image: new ol.style.Circle({
 								radius: 2,
 								fill: new ol.style.Fill({
