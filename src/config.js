@@ -858,7 +858,7 @@ var config = {
     },
 		{
 			group: 'Test',
-			title: 'Vending Parking Tickets2',
+			title: 'Vending Parking Tickets3',
 			geojson: 'src/export2.json',
 			iconSrc: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_B1a.png',
 			iconStyle: 'background-color:#714601',
