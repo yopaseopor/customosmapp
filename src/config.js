@@ -858,7 +858,7 @@ var config = {
     },
 		{
 			group: 'Test',
-			title: 'Vending Parking Tickets3',
+			title: 'Vending Parking Tickets2',
 			geojson: 'src/export2.json',
 			iconSrc: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_B1a.png',
 			iconStyle: 'background-color:#714601',
@@ -972,13 +972,10 @@ var config = {
 					},
 					'traffic_sign:forward': {
 						'ES:R301': new ol.style.Style({
-							image: new ol.style.Circle({
-								radius: 2,
-								fill: new ol.style.Fill({
-									color: 'rgba(140, 208, 95, 1.0)'
-								}),
-								stroke: null
-							})
+							image: new ol.style.Icon({
+						scale: 0.4,
+						src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R301.png'
+					})
 						})
 					}
 				};
