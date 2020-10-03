@@ -908,8 +908,15 @@ var config = {
 							})
 						})
 					},
-					'highway': {
-						'residential': new ol.style.Style({
+					'maxspeed:forward': {
+						'120': new ol.style.Style({
+							image: new ol.style.Icon({
+						scale: 0.4,
+						src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R301_120.png'
+					})
+						})
+						}),
+						'100': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
 								width: 6
@@ -919,7 +926,7 @@ var config = {
 								placement: 'line'
 							})
 						}),
-						'living_street': new ol.style.Style({
+						'80': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
 								width: 6
@@ -929,17 +936,7 @@ var config = {
 								placement: 'line'
 							})
 						}),
-						'pedestrian': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'line'
-							})
-						}),
-						'tertiary': new ol.style.Style({
+						'70': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
 								width: 6
