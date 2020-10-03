@@ -922,32 +922,21 @@ var config = {
 					})
 						}),
 						'80': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'line'
-							})
+							image: new ol.style.Icon({
+						scale: 0.4,
+						src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R301_80.png'
+					})
 						}),
 						'70': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'line'
-							})
+							image: new ol.style.Icon({
+						scale: 0.4,
+						src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R301_70.png'
+					})
 						}),
 						'.*': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 3
-							}),
-							text: new ol.style.Text({
-								text: name
+							image: new ol.style.Icon({
+						scale: 0.4,
+						src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R301_50.png'
 							})
 						})
 					},
