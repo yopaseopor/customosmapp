@@ -908,6 +908,38 @@ var config = {
 							})
 						})
 					},
+					'traffic_sign:forward': {
+						'ES:R2': new ol.style.Style({
+							image: new ol.style.Icon({
+						scale: 0.4,
+						src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R2.png'
+					})
+						}),
+						'ES:R1': new ol.style.Style({
+							image: new ol.style.Icon({
+						scale: 0.4,
+						src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R1.png'
+					})
+						}),
+						'ES:R101': new ol.style.Style({
+							image: new ol.style.Icon({
+						scale: 0.4,
+						src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R101.png'
+					})
+						}),
+						'R300': new ol.style.Style({
+							image: new ol.style.Icon({
+						scale: 0.4,
+						src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R300.png'
+					})
+						}),
+						'.*': new ol.style.Style({
+							image: new ol.style.Icon({
+						scale: 0.4,
+						src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_B1a.png'
+							})
+						})
+					},
 					'maxspeed:forward': {
 						'120': new ol.style.Style({
 							image: new ol.style.Icon({
@@ -1002,7 +1034,7 @@ var config = {
 							})
 						})
 					},
-					'traffic_sign:forward': {
+					'traffic_sign:backward': {
 						'ES:S570': new ol.style.Style({
 							image: new ol.style.Icon({
 						scale: 0.4,
@@ -1010,7 +1042,7 @@ var config = {
 					})
 						})
 					},
-					'traffic_sign:forward': {
+					'traffic_sign:backward': {
 						'ES:R2': new ol.style.Style({
 							image: new ol.style.Icon({
 						scale: 0.4,
