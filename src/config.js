@@ -977,7 +977,7 @@ var config = {
 						src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R301_120.png'
 					})
 						})
-					}
+					},
 					'maxpeed:forward': {
 						'100': new ol.style.Style({
 							image: new ol.style.Icon({
