@@ -932,6 +932,12 @@ var config = {
 						scale: 0.4,
 						src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R300.png'
 					})
+												}),
+						'R570': new ol.style.Style({
+							image: new ol.style.Icon({
+						scale: 0.4,
+						src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R570.png'
+					})
 						}),
 						'.*': new ol.style.Style({
 							image: new ol.style.Icon({
