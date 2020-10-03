@@ -972,9 +972,10 @@ var config = {
 					},
 					'traffic_sign:forward': {
 						'ES:R301': new ol.style.Style({
-							image: new ol.style.Icon({
-						scale: 0.4,
-						src: imgSrc + 'icones/ticket_zone_osm.png'
+							image: new ol.style.Circle({
+								radius: 2,
+								fill: new ol.style.Fill({
+									color: 'rgba(140, 208, 95, 1.0)'
 								}),
 								stroke: null
 							})
