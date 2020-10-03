@@ -858,7 +858,7 @@ var config = {
     },
 		{
 			group: 'Test',
-			title: 'Senyals trànsit',
+			title: 'Senyals trànsit2',
 			geojson: 'src/export2.json',
 			iconSrc: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_B1a.png',
 			iconStyle: 'background-color:#714601',
@@ -914,7 +914,6 @@ var config = {
 						scale: 0.4,
 						src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R301_120.png'
 					})
-						})
 						}),
 						'100': new ol.style.Style({
 							stroke: new ol.style.Stroke({
@@ -1018,19 +1017,19 @@ var config = {
 							})
 						})
 					},
-					'maxspeed:forward': {
-						'120': new ol.style.Style({
+					'traffic_sign:forward': {
+						'ES:S570': new ol.style.Style({
 							image: new ol.style.Icon({
 						scale: 0.4,
-						src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R301_120.png'
+						src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S570.png'
 					})
 						})
 					},
-					'maxpeed:forward': {
-						'100': new ol.style.Style({
+					'traffic_sign:forward': {
+						'ES:R2': new ol.style.Style({
 							image: new ol.style.Icon({
 						scale: 0.4,
-						src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R301_100.png'
+						src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R2.png'
 					})
 						})
 					}
