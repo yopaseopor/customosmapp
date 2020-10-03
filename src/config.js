@@ -858,7 +858,7 @@ var config = {
     },
 		{
 			group: 'Test',
-			title: 'Senyals trànsit2',
+			title: 'Senyals trànsit',
 			geojson: 'src/export2.json',
 			iconSrc: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_B1a.png',
 			iconStyle: 'background-color:#714601',
@@ -959,8 +959,8 @@ var config = {
 							})
 						})
 					},
-					'traffic_sign:forward': {
-						'ES:S570': new ol.style.Style({
+					'highway': {
+						'residential': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
 								width: 6
@@ -970,7 +970,7 @@ var config = {
 								placement: 'line'
 							})
 						}),
-						'ES:R1': new ol.style.Style({
+						'living_street': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
 								width: 6
@@ -980,7 +980,7 @@ var config = {
 								placement: 'line'
 							})
 						}),
-						'ES:R2': new ol.style.Style({
+						'pedestrian': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
 								width: 6
