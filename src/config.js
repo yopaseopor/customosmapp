@@ -858,7 +858,7 @@ var config = {
     },
 		{
 			group: 'Test',
-			title: 'Senyals trànsit',
+			title: 'Vending Parking Tickets3',
 			geojson: 'src/export2.json',
 			iconSrc: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_B1a.png',
 			iconStyle: 'background-color:#714601',
@@ -974,7 +974,7 @@ var config = {
 						'ES:R301': new ol.style.Style({
 							image: new ol.style.Icon({
 						scale: 0.4,
-						src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R301.png'
+						src: imgSrc + 'icones/ticket_zone_osm.png'
 								}),
 								stroke: null
 							})
