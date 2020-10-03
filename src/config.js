@@ -861,7 +861,12 @@ var config = {
 			title: 'Vending Parking Tickets2',
 			geojson: 'src/export2.json',
 			iconSrc: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_B1a.png',
-			var styles = {
+			iconStyle: 'background-color:#714601',
+			style: function (feature) {
+				var key_regex = /^name:193"~".*$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var styles = {
 					'amenity': {
 						'parking': new ol.style.Style({
 							stroke: new ol.style.Stroke({
@@ -967,17 +972,6 @@ var config = {
 					},
 					'natural': {
 						'tree': new ol.style.Style({
-							image: new ol.style.Circle({
-								radius: 2,
-								fill: new ol.style.Fill({
-									color: 'rgba(140, 208, 95, 1.0)'
-								}),
-								stroke: null
-							})
-						})
-					},
-					'natural': {
-						'tree2': new ol.style.Style({
 							image: new ol.style.Circle({
 								radius: 2,
 								fill: new ol.style.Fill({
