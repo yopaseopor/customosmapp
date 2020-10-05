@@ -38,6 +38,7 @@ var config = {
 	layers: [
 		new ol.layer.Tile({
 			title: 'OpenStreetMap',
+			group: 'test',
 			iconSrc: imgSrc + 'osm_logo-layer.svg',
 			source: new ol.source.OSM()
 		}),
