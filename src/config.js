@@ -44,6 +44,7 @@ var config = {
 		}),
 		new ol.layer.Tile({
 			title: 'OpenStreetMap B&W',
+			group: 'test',
 			iconSrc: imgSrc + 'osmbw_logo-layer.png',
 			source: new ol.source.XYZ({
 				attributions: '&copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap</a>',

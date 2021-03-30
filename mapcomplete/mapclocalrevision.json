@@ -1,0 +1,531 @@
+{
+  "id": "localrevision",
+  "title": {
+    "es": "Revisión local",
+    "ca": "Revisió local",
+    "en": "Local revision"
+  },
+  "description": {
+    "es": "Ayúdanos a revisar los establecimientos locales. Se le debe poner nombre y tipo.Si no lo sabes déjalo en blanco o ignora la pregunta.",
+    "ca": "Ajuda'ns a revisar els establiments locals, se'ls ha de posar nom i tipus . Si no ho saps deixa-ho en blanc o ignora la pregunta",
+    "en": "Help us to review local business, you must say it's name and type. If you don't know that leave it blank or ignore the question"
+  },
+  "language": [
+    "es",
+    "ca",
+    "en"
+  ],
+  "maintainer": "",
+  "icon": "https://cdn.pixabay.com/photo/2020/04/08/20/43/coronavirus-5018825_960_720.png",
+  "version": "0",
+  "startLat": 41.21898,
+  "startLon": 1.71333,
+  "startZoom": 1,
+  "widenFactor": 0.05,
+  "socialImage": "",
+  "layers": [
+    {
+      "id": "localrevision",
+      "name": {
+        "es": "localrevision",
+        "ca": "localrevision",
+        "en": "localrevision"
+      },
+      "minzoom": 18,
+      "overpassTags": {
+        "or": [
+          "shop~*",
+          {
+            "or": [
+              {
+                "and": [
+                  "amenity~*",
+                  "amenity!~bench|atm"
+                ]
+              }
+            ]
+          },
+          {
+            "or": [
+              "office~*"
+            ]
+          },
+          {
+            "or": [
+              "tourism~*"
+            ]
+          }
+        ]
+      },
+      "title": {
+        "render": {
+          "es": "Negocios",
+          "ca": "Negocis",
+          "en": "Business"
+        },
+        "mappings": [
+          {
+            "if": {
+              "and": [
+                "shop~*"
+              ]
+            },
+            "then": {
+              "es": "Tienda {name}",
+              "ca": "Botiga {name}",
+              "en": "Shop {name}"
+            }
+          },
+          {
+            "if": {
+              "and": [
+                "amenity~*"
+              ]
+            },
+            "then": {
+              "es": "Servicio {name}",
+              "ca": "Servei {name}",
+              "en": "Amenity  {name}"
+            }
+          },
+          {
+            "if": {
+              "and": [
+                "office~*"
+              ]
+            },
+            "then": {
+              "es": "Oficina {name}",
+              "ca": "Oficina {name}",
+              "en": "Office {name}"
+            }
+          },
+          {
+            "if": {
+              "and": [
+                "tourism~*"
+              ]
+            },
+            "then": {
+              "es": "Servicio de turismo {name}",
+              "ca": "Servei de turisme {name}",
+              "en": "Tourism service {name}"
+            }
+          }
+        ]
+      },
+      "description": {
+        "es": "Ayúdanos a revisar los establecimientos locales. Se le debe poner nombre y tipo.Si no lo sabes déjalo en blanco o ignora la pregunta.",
+        "ca": "Ajuda'ns a revisar els establiments locals, se'ls ha de posar nom i tipus . Si no ho saps deixa-ho en blanc o ignora la pregunta",
+        "en": "Help us to review local business, you must say it's name and type. If you don't know that leave it blank or ignore the question"
+      },
+      "tagRenderings": [
+        {
+          "render": {
+            "es": "Nombre:{name}",
+            "ca": "Nom:{name}",
+            "en": "Name:{name}"
+          },
+          "question": {
+            "es": "¿Qué nombre tiene?",
+            "ca": "Quin nom té?",
+            "en": "What's its name?"
+          },
+          "freeform": {
+            "key": "name"
+          },
+          "mappings": [
+            {
+              "if": {
+                "and": [
+                  "name~"
+                ]
+              },
+              "then": {
+                "es": "{name}",
+                "ca": "{name}",
+                "en": "{name}"
+              },
+              "hideInAnswer": true
+            }
+          ],
+          "condition": {
+            "and": []
+          }
+        },
+        {
+          "render": {
+            "es": "Número: {addr:housenumber}",
+            "ca": "Número: {addr:housenumber}",
+            "en": "Number: {addr:housenumber}"
+          },
+          "question": {
+            "es": "¿Qué número tiene?",
+            "ca": "Quin número té?",
+            "en": "What is its housenumber?"
+          },
+          "freeform": {
+            "key": "addr:housenumber"
+          },
+          "mappings": [
+            {
+              "if": {
+                "and": [
+                  "addr:housenumber~"
+                ]
+              },
+              "then": {
+                "es": "{addr:housenumber}",
+                "ca": "{addr:housenumber}",
+                "en": "{addr:housenumber}"
+              },
+              "hideInAnswer": true
+            }
+          ]
+        },
+        {
+          "render": {
+            "es": "Vía: {addr:street}",
+            "ca": "Via: {addr:street}",
+            "en": "Way: {addr:street}"
+          },
+          "question": {
+            "es": "¿En qué vía está ?",
+            "ca": "En quina via es troba ?",
+            "en": "Which way is it?"
+          },
+          "freeform": {
+            "key": "addr:street"
+          },
+          "mappings": [
+            {
+              "if": {
+                "and": [
+                  "addr:street~"
+                ]
+              },
+              "then": {
+                "es": "{addr:street}",
+                "ca": "{addr:street}",
+                "en": "{addr:street}"
+              },
+              "hideInAnswer": true
+            }
+          ]
+        },
+        {
+          "render": {
+            "es": "Horario: {opening_hours}",
+            "ca": "Horari: {opening_hours}",
+            "en": "Opening hours:: {opening_hours}"
+          },
+          "question": {
+            "es": "¿Qué horario tiene?",
+            "ca": "Quin horari té?",
+            "en": "What is its opening hours?"
+          },
+          "freeform": {
+            "key": "opening_hours",
+            "addExtraTags": [],
+            "type": "opening_hours"
+          },
+          "mappings": [
+            {
+              "if": {
+                "and": [
+                  "opening_hours~"
+                ]
+              },
+              "then": {
+                "es": "{opening_hours}",
+                "ca": "{opening_hours}",
+                "en": "{opening_hours}"
+              },
+              "hideInAnswer": true
+            }
+          ],
+          "condition": {
+            "and": []
+          }
+        },
+        {
+          "render": {
+            "es": "{amenity} {shop} {office} {tourism}",
+            "ca": "{amenity} {shop} {office} {tourism}",
+            "en": "{amenity} {shop} {office} {tourism}"
+          },
+          "question": {
+            "es": "Comprueba valor",
+            "ca": "Comprova valor",
+            "en": "Check value"
+          },
+          "freeform": {
+            "key": "shop",
+            "addExtraTags": []
+          },
+          "mappings": [
+            {
+              "if": {
+                "and": [
+                  "shop~"
+                ]
+              },
+              "then": {
+                "es": "{shop}",
+                "ca": "{shop}",
+                "en": "{shop}"
+              },
+              "hideInAnswer": true
+            }
+          ]
+        },
+        {
+          "render": {
+            "es": "{amenity} {shop} {office} {tourism}",
+            "ca": "{amenity} {shop}  {office} {tourism}",
+            "en": "{amenity} {shop} {office} {tourism}"
+          },
+          "question": {
+            "es": "Comprueba valor",
+            "ca": "Comprova valor",
+            "en": "Check value"
+          },
+          "freeform": {
+            "key": "amenity"
+          },
+          "mappings": [
+            {
+              "if": {
+                "and": [
+                  "amenity~"
+                ]
+              },
+              "then": {
+                "es": "{amenity}",
+                "ca": "{amenity}",
+                "en": "{amenity}"
+              },
+              "hideInAnswer": true
+            }
+          ],
+          "condition": {
+            "and": []
+          }
+        },
+        {
+          "render": {
+            "es": "{amenity} {shop} {office} {tourism}",
+            "ca": "{amenity} {shop} {office} {tourism}",
+            "en": "{amenity} {shop} {office} {tourism}"
+          },
+          "question": {
+            "es": "Comprueba valor",
+            "ca": "Comprova valor",
+            "en": "Check value"
+          },
+          "freeform": {
+            "key": "office"
+          },
+          "mappings": [
+            {
+              "if": {
+                "and": [
+                  "office~"
+                ]
+              },
+              "then": {
+                "es": "{office}",
+                "ca": "{office}",
+                "en": "{office}"
+              },
+              "hideInAnswer": true
+            }
+          ]
+        },
+        {
+          "render": {
+            "es": "{amenity} {shop} {office} {tourism}",
+            "ca": "{amenity} {shop} {office} {tourism}",
+            "en": "{amenity} {shop} {office} {tourism}"
+          },
+          "question": {
+            "es": "Comprueba valor",
+            "ca": "Comprova valor",
+            "en": "Check value"
+          },
+          "freeform": {
+            "key": "tourism"
+          },
+          "mappings": [
+            {
+              "if": {
+                "and": [
+                  "tourism~"
+                ]
+              },
+              "then": {
+                "es": "{tourism}",
+                "ca": "{tourism}",
+                "en": "{tourism}"
+              },
+              "hideInAnswer": true
+            }
+          ]
+        },
+        {
+          "render": {
+            "es": "{source:date}",
+            "ca": "{source:date}",
+            "en": "{source:date}"
+          },
+          "question": {
+            "es": "Comprueba valor",
+            "ca": "Comprova valor",
+            "en": "Check value"
+          },
+          "freeform": {
+            "key": "source:date",
+            "type": "date"
+          },
+          "mappings": [
+            {
+              "if": {
+                "and": [
+                  "source:date~"
+                ]
+              },
+              "then": {
+                "es": "{source:date}",
+                "ca": "{source:date}",
+                "en": "{source:date}"
+              },
+              "hideInAnswer": true
+            }
+          ]
+        },
+        {
+          "render": {
+            "es": "{source}",
+            "ca": "{source}",
+            "en": "{source}"
+          },
+          "question": {
+            "es": "¿Fuente ?",
+            "ca": "Font?",
+            "en": "Source?"
+          },
+          "freeform": {
+            "key": "source"
+          },
+          "mappings": [
+            {
+              "if": {
+                "and": [
+                  "source=survey"
+                ]
+              },
+              "then": {
+                "es": "Encuesta",
+                "ca": "Enquesta",
+                "en": "Survey"
+              }
+            },
+            {
+              "if": {
+                "and": [
+                  "source=local_knowledge"
+                ]
+              },
+              "then": {
+                "es": "Conocimiento local",
+                "ca": "Coneixement local",
+                "en": "Local knowledge"
+              }
+            }
+          ]
+        }
+      ],
+      "hideUnderlayingFeaturesMinPercentage": 0,
+      "icon": {
+        "render": "https://cdn.pixabay.com/photo/2016/12/20/05/24/store-1919713_960_720.png",
+        "mappings": [
+          {
+            "if": {
+              "and": [
+                "source:date~*"
+              ]
+            },
+            "then": {
+              "es": "https://cdn.pixabay.com/photo/2017/06/10/06/39/calender-2389150_960_720.png",
+              "ca": "https://cdn.pixabay.com/photo/2017/06/10/06/39/calender-2389150_960_720.png",
+              "en": "https://cdn.pixabay.com/photo/2017/06/10/06/39/calender-2389150_960_720.png"
+            }
+          },
+          {
+            "if": {
+              "and": [
+                "opening_hours~*"
+              ]
+            },
+            "then": {
+              "es": "https://cdn.pixabay.com/photo/2017/06/10/07/25/open-2389230_960_720.png",
+              "ca": "https://cdn.pixabay.com/photo/2017/06/10/07/25/open-2389230_960_720.png",
+              "en": "https://cdn.pixabay.com/photo/2017/06/10/07/25/open-2389230_960_720.png"
+            }
+          },
+          {
+            "if": {
+              "and": [
+                "addr:housenumber~*"
+              ]
+            },
+            "then": {
+              "es": "https://cdn.pixabay.com/photo/2017/06/10/07/18/list-2389219_960_720.png",
+              "ca": "https://cdn.pixabay.com/photo/2017/06/10/07/18/list-2389219_960_720.png",
+              "en": "https://cdn.pixabay.com/photo/2017/06/10/07/18/list-2389219_960_720.png"
+            }
+          }
+        ]
+      },
+      "width": {
+        "render": "8"
+      },
+      "iconSize": {
+        "render": "40,40,center"
+      },
+      "color": {
+        "render": "#00f"
+      },
+      "presets": [],
+      "wayHandling": 1,
+      "osmSource": {
+        "overpassTags": {
+          "or": [
+            "amenity~*",
+            {
+              "or": [
+                "shop~*"
+              ]
+            },
+            {
+              "or": [
+                "tourism~*"
+              ]
+            },
+            {
+              "or": [
+                "office~*"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "roamingRenderings": [],
+  "shortDescription": {
+    "es": "Ayúdanos a revisar los establecimientos locales",
+    "ca": "Ajuda'ns a revisar els establiments locals",
+    "en": "Help us to review local business"
+  }
+}
