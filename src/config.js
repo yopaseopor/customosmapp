@@ -847,25 +847,17 @@ var config = {
 		  group: 'Test',
 		  title: 'tracks',
 		  geojson: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/tracks.geojson',
-			style: function () {
-				var fill = new ol.style.Fill({
-					color: 'rgba(0,0,255,0.4)'
-				});
-				var stroke = new ol.style.Stroke({
-					color: '#0000ff',
-					width: 1.25
-				});
-				var style = new ol.style.Style({
-					image: new ol.style.Circle({
-						fill: fill,
-						stroke: stroke,
-						radius: 5
-					}),
-					fill: fill,
-					stroke: stroke
-				});
-				return style;
-			}
+		  style: new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 6
+							}),
+							text: new ol.style.Text({
+								text: '1',
+								placement: 'line'
+							})
+          }))
+      })
 		},
 	{
       group: 'Test',
