@@ -846,7 +846,7 @@ var config = {
 		{
 		  group: 'Test',
 		  title: 'tracks2',
-		  geojson: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/tracks.geojson',
+		  geojson: 'https://raw.githubusercontent.com/yopaseopor/customosmapp/master/src/tracks.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#0000ff',
 			style: function () {
