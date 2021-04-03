@@ -845,7 +845,7 @@ var config = {
 		},
 		{
 		  group: 'Test',
-		  title: 'tracks',
+		  title: 'tracks2',
 		  geojson: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/tracks.geojson',
 		  style: new ol.style.Style({
 							stroke: new ol.style.Stroke({
