@@ -843,6 +843,19 @@ var config = {
           }))
       })
 		},
+		{
+		  group: 'Tracks',
+		  title: 'geojson',
+		  geojson: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/tracks.geojson',
+		  style: new ol.style.Style({
+          image: new ol.style.Circle( /** @type {olx.style.IconOptions} */ ({
+              radius: 20,
+              fill: new ol.style.Fill({
+                  color: '#ffff00'
+              })
+          }))
+      })
+		},
 	{
       group: 'Test',
       title: 'Prum',
