@@ -853,7 +853,7 @@ var config = {
 								width: 6
 							}),
 							text: new ol.style.Text({
-								text: '1',
+								text: '1'
 								placement: 'line'
 							})
           }))
