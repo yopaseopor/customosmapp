@@ -844,8 +844,8 @@ var config = {
       })
 		},
 		{
-		  group: 'Tracks',
-		  title: 'geojson',
+		  group: 'Test',
+		  title: 'tracks',
 		  geojson: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/tracks.geojson',
 			style: function () {
 				var fill = new ol.style.Fill({
