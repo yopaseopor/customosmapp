@@ -1069,7 +1069,7 @@ var config = {
 		{
 			group: 'Test',
 			title: 'Stops signs',
-			geojson: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/img/base/test.geojson',
+			geojson: 'https://raw.githubusercontent.com/yopaseopor/customosmapp/master/customosmapp3/src/img/base/test.geojson',
 			iconSrc: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R2.png',
 			style: function () {
 				var style = new ol.style.Style({
@@ -1091,7 +1091,7 @@ var config = {
 			group: 'Test',
 			title: 'Senyals Barcelona (Opendata Ajuntament BCN - NO OSM)',
 			iconSrc: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R2.png',
-			geojson: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/img/base/2021_06_27_senyals_transit_bcn.geojson',
+			geojson: 'https://raw.githubusercontent.com/yopaseopor/customosmapp/master/customosmapp3/src/img/base/2021_06_27_senyals_transit_bcn.geojson',
 			style: function (feature) {
 				var name = feature.get('name') || '';
 				var styles = {
