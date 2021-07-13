@@ -1091,7 +1091,7 @@ var config = {
 			group: 'Test',
 			title: 'FGC',
 			iconSrc: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R2.png',
-			geojson: 'https://dadesobertes.fgc.cat/explore/dataset/posicionament-dels-trens/download/?format=geojson&timezone=Europe/Berlin&lang=ca',
+			geojson: 'https://raw.githubusercontent.com/yopaseopor/customosmapp/master/customosmapp3/src/img/base/2021_06_27_senyals_transit_bcn.geojson',
 			style: function (feature) {
 				var name = feature.get('name') || '';
 				var styles = {
@@ -1110,7 +1110,7 @@ var config = {
 							})
 						})
 					},
-					'traffic_sign:backward': {
+					'traffic_sign:forward': {
 						'ES:R1': new ol.style.Style({
 							image: new ol.style.Icon({
 						scale: 0.4,
