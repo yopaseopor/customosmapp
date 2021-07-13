@@ -1091,7 +1091,7 @@ var config = {
 			group: 'Test',
 			title: 'FGC',
 			iconSrc: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R2.png',
-			geojson: 'https://dadesobertes.fgc.cat/explore/dataset/posicionament-dels-trens/download/?format=json&timezone=Europe/Berlin&lang=ca',
+			geojson: 'https://dadesobertes.fgc.cat/api/records/1.0/search/?dataset=posicionament-dels-trens&q=&rows=10',
 			style: function (feature) {
 				var name = feature.get('name') || '';
 				var styles = {
