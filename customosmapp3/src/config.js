@@ -5710,9 +5710,9 @@ color: 'rgba(170, 170, 170, 0.3)'
 },
 		{
 			group: 'Test',
-			title: 'Señales ES (Transparencia/Fomento - NO OSM)',
+			title: 'Señales ES (Transparencia/Fomento (Catalunya) - NO OSM)',
 			iconSrc: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R2.png',
-			geojson: 'https://raw.githubusercontent.com/yopaseopor/customosmapp/master/customosmapp3/src/img/base/traffic_signs_for_2021.geojson',
+			geojson: 'https://raw.githubusercontent.com/yopaseopor/customosmapp/master/customosmapp3/src/img/base/traffic_signs_for_2021_cat.geojson',
 			style: function (feature) {
 				var name = feature.get('name') || '';
 				var styles = {
