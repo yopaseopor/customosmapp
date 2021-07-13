@@ -1151,48 +1151,6 @@ var config = {
 							fill: new ol.style.Fill({
 								color: 'rgba(170, 170, 170, 0.3)'
 							})
-						}),
-'ES:P1': new ol.style.Style({
-image: new ol.style.Icon({
-scale: 0.4,
-src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P1.png'
-}),
-stroke: new ol.style.Stroke({
-color: 'rgba(170, 170, 170, 1.0)',
-width: 1
-}),
-fill: new ol.style.Fill({
-color: 'rgba(170, 170, 170, 0.3)'
-})
-}),
-'ES:P10a': new ol.style.Style({
-image: new ol.style.Icon({
-scale: 0.4,
-src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P10a.png'
-}),
-stroke: new ol.style.Stroke({
-color: 'rgba(170, 170, 170, 1.0)',
-width: 1
-}),
-fill: new ol.style.Fill({
-color: 'rgba(170, 170, 170, 0.3)'
-})
-}),
-'ES:P10b': new ol.style.Style({
-image: new ol.style.Icon({
-scale: 0.4,
-src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P10b.png'
-}),
-
-
-						'.*': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 3
-							}),
-							text: new ol.style.Text({
-								text: name
-							})
 						})
 					},
 					'building': {
