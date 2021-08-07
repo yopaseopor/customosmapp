@@ -1,0 +1,2770 @@
+
+{
+    "type": "FeatureCollection",
+    "generator": "JOSM",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "bicycle": "designated",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20475490000,
+                    41.41215000000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "footway": "crossing",
+                "highway": "footway",
+                "lanes": "1",
+                "lit": "yes",
+                "motor_vehicle": "no",
+                "name": "Carrer de Pere IV",
+                "surface": "asphalt",
+                "width": "20"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.20096340000,
+                        41.40681490000
+                    ],
+                    [
+                        2.20084340000,
+                        41.40678470000
+                    ],
+                    [
+                        2.20069660000,
+                        41.40675090000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "turning_circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19486240000,
+                    41.39931140000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20058460000,
+                    41.40643080000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "residential",
+                "lit": "yes",
+                "maxspeed": "30",
+                "name": "Carrer de Pere IV",
+                "oneway": "yes",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.19390860000,
+                        41.39807500000
+                    ],
+                    [
+                        2.19402540000,
+                        41.39823120000
+                    ],
+                    [
+                        2.19406470000,
+                        41.39828370000
+                    ],
+                    [
+                        2.19409040000,
+                        41.39831810000
+                    ],
+                    [
+                        2.19419380000,
+                        41.39845640000
+                    ],
+                    [
+                        2.19425420000,
+                        41.39853710000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "service",
+                "name": "Carrer de Pere IV",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.19086180000,
+                        41.39447850000
+                    ],
+                    [
+                        2.19117090000,
+                        41.39482870000
+                    ],
+                    [
+                        2.19123490000,
+                        41.39489630000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "bus": "yes",
+                "name": "Pere IV - Provençals",
+                "public_transport": "stop_position",
+                "ref": "103114",
+                "route_ref": "B25 B20 N11"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20392170000,
+                    41.41120780000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "bicycle": "designated",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19729360000,
+                    41.40234580000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "residential",
+                "maxspeed": "30",
+                "name": "Carrer de Pere IV",
+                "oneway": "no"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.20471680000,
+                        41.41210210000
+                    ],
+                    [
+                        2.20475490000,
+                        41.41215000000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "footway": "crossing",
+                "highway": "footway",
+                "name": "Carrer de Pere IV"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.20892560000,
+                        41.41753600000
+                    ],
+                    [
+                        2.20890640000,
+                        41.41751090000
+                    ],
+                    [
+                        2.20888910000,
+                        41.41748780000
+                    ],
+                    [
+                        2.20885270000,
+                        41.41744330000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20481270000,
+                    41.41222690000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19569100000,
+                    41.40032120000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "residential",
+                "maxspeed": "30",
+                "name": "Carrer de Pere IV",
+                "oneway": "yes"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.20554570000,
+                        41.41314410000
+                    ],
+                    [
+                        2.20611760000,
+                        41.41386290000
+                    ],
+                    [
+                        2.20632990000,
+                        41.41412970000
+                    ],
+                    [
+                        2.20641950000,
+                        41.41424260000
+                    ],
+                    [
+                        2.20719370000,
+                        41.41514860000
+                    ],
+                    [
+                        2.20721490000,
+                        41.41517330000
+                    ],
+                    [
+                        2.20727190000,
+                        41.41524000000
+                    ],
+                    [
+                        2.20730560000,
+                        41.41528950000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20466620000,
+                    41.41203850000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20719370000,
+                    41.41514860000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "access": "yes",
+                "bicycle": "no",
+                "highway": "residential",
+                "maxspeed": "10",
+                "motor_vehicle": "designated",
+                "name": "Carrer de Pere IV",
+                "oneway": "yes",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.19772780000,
+                        41.40277220000
+                    ],
+                    [
+                        2.19809960000,
+                        41.40321740000
+                    ],
+                    [
+                        2.19812080000,
+                        41.40324280000
+                    ],
+                    [
+                        2.19817540000,
+                        41.40330820000
+                    ],
+                    [
+                        2.19823270000,
+                        41.40338200000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19643020000,
+                    41.40121630000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20056550000,
+                    41.40640440000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Pere IV - Treball",
+                "public_transport": "stop_position",
+                "ref": "103134",
+                "route_ref": "B25 B20 N11"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20611760000,
+                    41.41386290000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20740940000,
+                    41.41541580000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20889770000,
+                    41.41730320000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20721490000,
+                    41.41517330000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "footway": "sidewalk",
+                "highway": "footway",
+                "name": "Carrer de Pere IV"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.20419310000,
+                        41.41142670000
+                    ],
+                    [
+                        2.20391350000,
+                        41.41107330000
+                    ],
+                    [
+                        2.20383290000,
+                        41.41098440000
+                    ],
+                    [
+                        2.20337970000,
+                        41.41035920000
+                    ],
+                    [
+                        2.20330860000,
+                        41.41025050000
+                    ],
+                    [
+                        2.20314730000,
+                        41.41001320000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "bus": "yes",
+                "name": "Pere IV - Selva de Mar",
+                "public_transport": "stop_position",
+                "ref": "3562",
+                "route_ref": "H14"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20396680000,
+                    41.41125770000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19406470000,
+                    41.39828370000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "bus": "yes",
+                "name": "Pere IV - Llacuna",
+                "public_transport": "stop_position",
+                "ref": "3563",
+                "route_ref": "H14"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19717320000,
+                    41.40210150000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "uncontrolled",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19823270000,
+                    41.40338200000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "stop"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19217440000,
+                    41.39601260000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "footway": "sidewalk",
+                "highway": "footway",
+                "name": "Carrer de Pere IV"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.20705040000,
+                        41.41533910000
+                    ],
+                    [
+                        2.20711190000,
+                        41.41526910000
+                    ],
+                    [
+                        2.20708300000,
+                        41.41523290000
+                    ],
+                    [
+                        2.20623300000,
+                        41.41416720000
+                    ],
+                    [
+                        2.20472590000,
+                        41.41227750000
+                    ],
+                    [
+                        2.20469550000,
+                        41.41223940000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "footway": "sidewalk",
+                "highway": "footway",
+                "name": "Carrer de Pere IV"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.20954290000,
+                        41.41831850000
+                    ],
+                    [
+                        2.20953450000,
+                        41.41825660000
+                    ],
+                    [
+                        2.20950720000,
+                        41.41822070000
+                    ],
+                    [
+                        2.20932990000,
+                        41.41798830000
+                    ],
+                    [
+                        2.20901390000,
+                        41.41760220000
+                    ],
+                    [
+                        2.20897000000,
+                        41.41754860000
+                    ],
+                    [
+                        2.20892560000,
+                        41.41753600000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "bicycle": "designated",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20475160000,
+                    41.41225760000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19355140000,
+                    41.39765900000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19653760000,
+                    41.40135660000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20482620000,
+                    41.41223970000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19741640000,
+                    41.40239180000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Pere IV - Josep Pla",
+                "public_transport": "stop_position",
+                "ref": "103132",
+                "route_ref": "B25 B20 N11"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20784900000,
+                    41.41598100000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20001270000,
+                    41.40564150000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "bicycle": "designated",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20733560000,
+                    41.41544230000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20309280000,
+                    41.41006040000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "footway": "sidewalk",
+                "highway": "footway",
+                "name": "Carrer de Pere IV"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.20402820000,
+                        41.41141810000
+                    ],
+                    [
+                        2.20370960000,
+                        41.41105410000
+                    ],
+                    [
+                        2.20318930000,
+                        41.41035020000
+                    ],
+                    [
+                        2.20302320000,
+                        41.41012650000
+                    ],
+                    [
+                        2.20301230000,
+                        41.41011180000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "bicycle": "designated",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20714690000,
+                    41.41520360000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20745520000,
+                    41.41547160000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "traffic_signals",
+                "traffic_signals:direction": "forward"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19294890000,
+                    41.39695430000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "highway": "traffic_signals",
+                "traffic_signals:direction": "forward"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19920320000,
+                    41.40460790000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19130390000,
+                    41.39497240000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "highway": "traffic_signals",
+                "traffic_signals:direction": "forward"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19873230000,
+                    41.40401310000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "bus": "yes",
+                "name": "Pere IV - Bilbao",
+                "public_transport": "stop_position",
+                "ref": "3564",
+                "route_ref": "H14"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19976330000,
+                    41.40532140000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "bicycle": "designated",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20628590000,
+                    41.41414190000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "bicycle": "no",
+                "highway": "residential",
+                "lanes": "1",
+                "maxspeed": "10",
+                "motor_vehicle": "designated",
+                "name": "Carrer de Pere IV",
+                "oneway": "yes",
+                "oneway:bicycle": "no",
+                "parking:lane:both": "no_parking",
+                "surface": "asphalt",
+                "width": "3"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.19648410000,
+                        41.40129400000
+                    ],
+                    [
+                        2.19653760000,
+                        41.40135660000
+                    ],
+                    [
+                        2.19717320000,
+                        41.40210150000
+                    ],
+                    [
+                        2.19726060000,
+                        41.40220390000
+                    ],
+                    [
+                        2.19727900000,
+                        41.40222580000
+                    ],
+                    [
+                        2.19728740000,
+                        41.40223580000
+                    ],
+                    [
+                        2.19734730000,
+                        41.40230740000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20632990000,
+                    41.41412970000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "uncontrolled",
+                "crossing_ref": "zebra",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19213450000,
+                    41.39596480000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "footway": "crossing",
+                "highway": "footway",
+                "name": "Carrer de Pere IV"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.20713490000,
+                        41.41546610000
+                    ],
+                    [
+                        2.20710730000,
+                        41.41543200000
+                    ],
+                    [
+                        2.20705040000,
+                        41.41533910000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "bicycle": "designated",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20954600000,
+                    41.41819390000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "bicycle": "yes",
+                "highway": "residential",
+                "lanes": "2",
+                "lanes:backward": "1",
+                "lanes:forward": "1",
+                "maxspeed": "10",
+                "motor_vehicle": "designated",
+                "name": "Carrer de Pere IV",
+                "oneway": "no",
+                "oneway:bicycle": "no",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.19486240000,
+                        41.39931140000
+                    ],
+                    [
+                        2.19555850000,
+                        41.40016060000
+                    ],
+                    [
+                        2.19561720000,
+                        41.40023220000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "residential",
+                "maxspeed": "50",
+                "name": "Carrer de Pere IV",
+                "oneway": "no"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.20300320000,
+                        41.40993720000
+                    ],
+                    [
+                        2.20309280000,
+                        41.41006040000
+                    ],
+                    [
+                        2.20314030000,
+                        41.41012020000
+                    ],
+                    [
+                        2.20326660000,
+                        41.41027410000
+                    ],
+                    [
+                        2.20376320000,
+                        41.41102320000
+                    ],
+                    [
+                        2.20385100000,
+                        41.41111930000
+                    ],
+                    [
+                        2.20392170000,
+                        41.41120780000
+                    ],
+                    [
+                        2.20396680000,
+                        41.41125770000
+                    ],
+                    [
+                        2.20402270000,
+                        41.41132380000
+                    ],
+                    [
+                        2.20462410000,
+                        41.41198550000
+                    ],
+                    [
+                        2.20466620000,
+                        41.41203850000
+                    ],
+                    [
+                        2.20471680000,
+                        41.41210210000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20957700000,
+                    41.41816090000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "no",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19809960000,
+                    41.40321740000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "bicycle": "designated",
+                "bicycle_road": "yes",
+                "highway": "cycleway",
+                "lanes": "1",
+                "maxspeed": "30",
+                "name": "Carrer de Pere IV",
+                "oneway": "no",
+                "segregated": "yes",
+                "surface": "asphalt",
+                "vehicle": "no",
+                "width": "2.5"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.19648410000,
+                        41.40129400000
+                    ],
+                    [
+                        2.19651160000,
+                        41.40137010000
+                    ],
+                    [
+                        2.19729360000,
+                        41.40234580000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cycleway": "asl"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19982800000,
+                    41.40540350000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "bus": "yes",
+                "name": "Pere IV",
+                "public_transport": "stop_position",
+                "ref": "110587"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20864410000,
+                    41.41698880000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "residential",
+                "lanes": "1",
+                "maxspeed": "30",
+                "name": "Carrer de Pere IV",
+                "oneway": "yes",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.20730560000,
+                        41.41528950000
+                    ],
+                    [
+                        2.20740940000,
+                        41.41541580000
+                    ],
+                    [
+                        2.20745520000,
+                        41.41547160000
+                    ],
+                    [
+                        2.20763960000,
+                        41.41571030000
+                    ],
+                    [
+                        2.20784900000,
+                        41.41598100000
+                    ],
+                    [
+                        2.20811620000,
+                        41.41632730000
+                    ],
+                    [
+                        2.20864410000,
+                        41.41698880000
+                    ],
+                    [
+                        2.20887200000,
+                        41.41727110000
+                    ],
+                    [
+                        2.20889770000,
+                        41.41730320000
+                    ],
+                    [
+                        2.20891320000,
+                        41.41732260000
+                    ],
+                    [
+                        2.20898550000,
+                        41.41741280000
+                    ],
+                    [
+                        2.20909470000,
+                        41.41755810000
+                    ],
+                    [
+                        2.20954840000,
+                        41.41812480000
+                    ],
+                    [
+                        2.20955400000,
+                        41.41813180000
+                    ],
+                    [
+                        2.20957700000,
+                        41.41816090000
+                    ],
+                    [
+                        2.20961280000,
+                        41.41820430000
+                    ],
+                    [
+                        2.20966280000,
+                        41.41832480000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19728740000,
+                    41.40223580000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19984720000,
+                    41.40542360000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19314320000,
+                    41.39718360000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "footway": "sidewalk",
+                "highway": "footway",
+                "name": "Carrer de Pere IV"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.20315320000,
+                        41.40978550000
+                    ],
+                    [
+                        2.20312810000,
+                        41.40979310000
+                    ],
+                    [
+                        2.20309270000,
+                        41.40980390000
+                    ],
+                    [
+                        2.20305350000,
+                        41.40979040000
+                    ],
+                    [
+                        2.20303930000,
+                        41.40977020000
+                    ],
+                    [
+                        2.20263820000,
+                        41.40919940000
+                    ],
+                    [
+                        2.20242890000,
+                        41.40890140000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19986230000,
+                    41.40544180000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "cycleway",
+                "name": "Carrer de Pere IV",
+                "segregated": "yes",
+                "smoothness": "excellent",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.20470080000,
+                        41.41219120000
+                    ],
+                    [
+                        2.20475160000,
+                        41.41225760000
+                    ],
+                    [
+                        2.20628590000,
+                        41.41414190000
+                    ],
+                    [
+                        2.20714690000,
+                        41.41520360000
+                    ],
+                    [
+                        2.20721350000,
+                        41.41528350000
+                    ],
+                    [
+                        2.20724910000,
+                        41.41533010000
+                    ],
+                    [
+                        2.20733560000,
+                        41.41544230000
+                    ],
+                    [
+                        2.20805280000,
+                        41.41637280000
+                    ],
+                    [
+                        2.20884960000,
+                        41.41734240000
+                    ],
+                    [
+                        2.20893790000,
+                        41.41744980000
+                    ],
+                    [
+                        2.20904660000,
+                        41.41758280000
+                    ],
+                    [
+                        2.20954600000,
+                        41.41819390000
+                    ],
+                    [
+                        2.20961400000,
+                        41.41827710000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "residential",
+                "maxspeed": "30",
+                "name": "Carrer de Pere IV",
+                "oneway": "yes",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.19123490000,
+                        41.39489630000
+                    ],
+                    [
+                        2.19127950000,
+                        41.39494470000
+                    ],
+                    [
+                        2.19130390000,
+                        41.39497240000
+                    ],
+                    [
+                        2.19134260000,
+                        41.39501870000
+                    ],
+                    [
+                        2.19199430000,
+                        41.39579720000
+                    ],
+                    [
+                        2.19213450000,
+                        41.39596480000
+                    ],
+                    [
+                        2.19217440000,
+                        41.39601260000
+                    ],
+                    [
+                        2.19221980000,
+                        41.39606680000
+                    ],
+                    [
+                        2.19228040000,
+                        41.39613980000
+                    ],
+                    [
+                        2.19294890000,
+                        41.39695430000
+                    ],
+                    [
+                        2.19297900000,
+                        41.39698780000
+                    ],
+                    [
+                        2.19304740000,
+                        41.39706360000
+                    ],
+                    [
+                        2.19307710000,
+                        41.39709780000
+                    ],
+                    [
+                        2.19312260000,
+                        41.39715960000
+                    ],
+                    [
+                        2.19314320000,
+                        41.39718360000
+                    ],
+                    [
+                        2.19353020000,
+                        41.39763430000
+                    ],
+                    [
+                        2.19355140000,
+                        41.39765900000
+                    ],
+                    [
+                        2.19390860000,
+                        41.39807500000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19727900000,
+                    41.40222580000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19889440000,
+                    41.40421780000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19726060000,
+                    41.40220390000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "footway": "crossing",
+                "highway": "footway",
+                "name": "Carrer de Pere IV"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.20316760000,
+                        41.40999560000
+                    ],
+                    [
+                        2.20314730000,
+                        41.41001320000
+                    ],
+                    [
+                        2.20309280000,
+                        41.41006040000
+                    ],
+                    [
+                        2.20302320000,
+                        41.41012650000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "residential",
+                "lanes": "2",
+                "maxspeed": "30",
+                "name": "Carrer de Pere IV",
+                "oneway": "yes"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.20225060000,
+                        41.40883620000
+                    ],
+                    [
+                        2.20233450000,
+                        41.40895910000
+                    ],
+                    [
+                        2.20290470000,
+                        41.40979520000
+                    ],
+                    [
+                        2.20292870000,
+                        41.40982980000
+                    ],
+                    [
+                        2.20300320000,
+                        41.40993720000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "highway": "traffic_signals",
+                "traffic_signals:direction": "forward"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19641320000,
+                    41.40119180000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "footway": "sidewalk",
+                "highway": "footway",
+                "name": "Carrer de Pere IV"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.20240930000,
+                        41.40919940000
+                    ],
+                    [
+                        2.20255760000,
+                        41.40943080000
+                    ],
+                    [
+                        2.20289020000,
+                        41.40984620000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19312260000,
+                    41.39715960000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "residential",
+                "lit": "yes",
+                "maxspeed": "30",
+                "name": "Carrer de Pere IV",
+                "oneway": "yes",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.19991860000,
+                        41.40551160000
+                    ],
+                    [
+                        2.19994870000,
+                        41.40555320000
+                    ],
+                    [
+                        2.20001270000,
+                        41.40564150000
+                    ],
+                    [
+                        2.20036280000,
+                        41.40612470000
+                    ],
+                    [
+                        2.20049340000,
+                        41.40630490000
+                    ],
+                    [
+                        2.20056550000,
+                        41.40640440000
+                    ],
+                    [
+                        2.20058460000,
+                        41.40643080000
+                    ],
+                    [
+                        2.20071750000,
+                        41.40661420000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20225060000,
+                    41.40883620000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19037740000,
+                    41.39374420000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "bicycle": "designated",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20884960000,
+                    41.41734240000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "bicycle": "designated",
+                "highway": "residential",
+                "lanes": "1",
+                "maxspeed": "10",
+                "motor_vehicle": "designated",
+                "name": "Carrer de Pere IV",
+                "oneway": "yes",
+                "oneway:bicycle": "no",
+                "parking:lane:both": "no_parking",
+                "surface": "asphalt",
+                "width": "3"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.19561720000,
+                        41.40023220000
+                    ],
+                    [
+                        2.19569100000,
+                        41.40032120000
+                    ],
+                    [
+                        2.19641320000,
+                        41.40119180000
+                    ],
+                    [
+                        2.19643020000,
+                        41.40121630000
+                    ],
+                    [
+                        2.19648410000,
+                        41.40129400000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "bicycle": "designated",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20904660000,
+                    41.41758280000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20069660000,
+                    41.40675090000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19812080000,
+                    41.40324280000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "bicycle": "no",
+                "highway": "residential",
+                "lit": "yes",
+                "maxspeed": "10",
+                "motor_vehicle": "designated",
+                "name": "Carrer de Pere IV",
+                "oneway": "yes",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.19823270000,
+                        41.40338200000
+                    ],
+                    [
+                        2.19827680000,
+                        41.40343770000
+                    ],
+                    [
+                        2.19832410000,
+                        41.40349740000
+                    ],
+                    [
+                        2.19868340000,
+                        41.40395130000
+                    ],
+                    [
+                        2.19873230000,
+                        41.40401310000
+                    ],
+                    [
+                        2.19876670000,
+                        41.40405650000
+                    ],
+                    [
+                        2.19882290000,
+                        41.40412750000
+                    ],
+                    [
+                        2.19889440000,
+                        41.40421780000
+                    ],
+                    [
+                        2.19907230000,
+                        41.40444260000
+                    ],
+                    [
+                        2.19918580000,
+                        41.40458600000
+                    ],
+                    [
+                        2.19920320000,
+                        41.40460790000
+                    ],
+                    [
+                        2.19922150000,
+                        41.40463390000
+                    ],
+                    [
+                        2.19976330000,
+                        41.40532140000
+                    ],
+                    [
+                        2.19982800000,
+                        41.40540350000
+                    ],
+                    [
+                        2.19984720000,
+                        41.40542360000
+                    ],
+                    [
+                        2.19986230000,
+                        41.40544180000
+                    ],
+                    [
+                        2.19991860000,
+                        41.40551160000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "footway": "sidewalk",
+                "highway": "footway",
+                "name": "Carrer de Pere IV"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.20956400000,
+                        41.41805470000
+                    ],
+                    [
+                        2.20915940000,
+                        41.41751540000
+                    ],
+                    [
+                        2.20910130000,
+                        41.41743800000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19876670000,
+                    41.40405650000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "residential",
+                "lit": "yes",
+                "maxspeed": "30",
+                "name": "Carrer de Pere IV",
+                "oneway": "yes",
+                "oneway:bicycle": "no",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.19425420000,
+                        41.39853710000
+                    ],
+                    [
+                        2.19462170000,
+                        41.39899680000
+                    ],
+                    [
+                        2.19474770000,
+                        41.39915430000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20909470000,
+                    41.41755810000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20233450000,
+                    41.40895910000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "footway": "sidewalk",
+                "highway": "footway",
+                "name": "Carrer de Pere IV"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.20825910000,
+                        41.41631300000
+                    ],
+                    [
+                        2.20826060000,
+                        41.41638240000
+                    ],
+                    [
+                        2.20894940000,
+                        41.41725290000
+                    ],
+                    [
+                        2.20899660000,
+                        41.41730310000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19134260000,
+                    41.39501870000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "footway": "crossing",
+                "highway": "footway",
+                "name": "Carrer de Pere IV"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.20960390000,
+                        41.41812800000
+                    ],
+                    [
+                        2.20957700000,
+                        41.41816090000
+                    ],
+                    [
+                        2.20954600000,
+                        41.41819390000
+                    ],
+                    [
+                        2.20950720000,
+                        41.41822070000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "footway": "sidewalk",
+                "highway": "footway",
+                "name": "Carrer de Pere IV"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.20885270000,
+                        41.41744330000
+                    ],
+                    [
+                        2.20880540000,
+                        41.41738400000
+                    ],
+                    [
+                        2.20879420000,
+                        41.41736990000
+                    ],
+                    [
+                        2.20868780000,
+                        41.41723040000
+                    ],
+                    [
+                        2.20847210000,
+                        41.41695570000
+                    ],
+                    [
+                        2.20803300000,
+                        41.41638700000
+                    ],
+                    [
+                        2.20752270000,
+                        41.41575830000
+                    ],
+                    [
+                        2.20728700000,
+                        41.41546610000
+                    ],
+                    [
+                        2.20726000000,
+                        41.41543270000
+                    ],
+                    [
+                        2.20713490000,
+                        41.41546610000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20084340000,
+                    41.40678470000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20290470000,
+                    41.40979520000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19117090000,
+                    41.39482870000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20891320000,
+                    41.41732260000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20462410000,
+                    41.41198550000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20888910000,
+                    41.41748780000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "access": "yes",
+                "bicycle": "no",
+                "highway": "residential",
+                "lit": "yes",
+                "maxspeed": "10",
+                "motor_vehicle": "designated",
+                "name": "Carrer de Pere IV",
+                "oneway": "yes",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.19734730000,
+                        41.40230740000
+                    ],
+                    [
+                        2.19741640000,
+                        41.40239180000
+                    ],
+                    [
+                        2.19772780000,
+                        41.40277220000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "uncontrolled",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20376320000,
+                    41.41102320000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "residential",
+                "lanes": "2",
+                "lit": "yes",
+                "maxspeed": "30",
+                "name": "Carrer de Pere IV",
+                "oneway": "yes",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.20071750000,
+                        41.40661420000
+                    ],
+                    [
+                        2.20077590000,
+                        41.40668910000
+                    ],
+                    [
+                        2.20081520000,
+                        41.40673950000
+                    ],
+                    [
+                        2.20084340000,
+                        41.40678470000
+                    ],
+                    [
+                        2.20089780000,
+                        41.40684540000
+                    ],
+                    [
+                        2.20093580000,
+                        41.40689410000
+                    ],
+                    [
+                        2.20097670000,
+                        41.40694660000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19409040000,
+                    41.39831810000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "footway": "crossing",
+                "highway": "footway",
+                "name": "Carrer de Pere IV"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.20894940000,
+                        41.41725290000
+                    ],
+                    [
+                        2.20889770000,
+                        41.41730320000
+                    ],
+                    [
+                        2.20884960000,
+                        41.41734240000
+                    ],
+                    [
+                        2.20880540000,
+                        41.41738400000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "uncontrolled",
+                "crossing_ref": "zebra",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19228040000,
+                    41.39613980000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20887200000,
+                    41.41727110000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "footway": "crossing",
+                "highway": "footway",
+                "name": "Carrer de Pere IV"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.20915940000,
+                        41.41751540000
+                    ],
+                    [
+                        2.20909470000,
+                        41.41755810000
+                    ],
+                    [
+                        2.20904660000,
+                        41.41758280000
+                    ],
+                    [
+                        2.20901390000,
+                        41.41760220000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "bicycle": "designated",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19651160000,
+                    41.40137010000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "residential",
+                "lanes": "1",
+                "maxspeed": "30",
+                "name": "Carrer de Pere IV",
+                "oneway": "yes"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.20475490000,
+                        41.41215000000
+                    ],
+                    [
+                        2.20481270000,
+                        41.41222690000
+                    ],
+                    [
+                        2.20482620000,
+                        41.41223970000
+                    ],
+                    [
+                        2.20554570000,
+                        41.41314410000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19832410000,
+                    41.40349740000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20955400000,
+                    41.41813180000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19297900000,
+                    41.39698780000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19482110000,
+                    41.39925310000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "bicycle": "yes",
+                "highway": "residential",
+                "lit": "yes",
+                "maxspeed": "30",
+                "motor_vehicle": "designated",
+                "name": "Carrer de Pere IV",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.19474770000,
+                        41.39915430000
+                    ],
+                    [
+                        2.19479410000,
+                        41.39921500000
+                    ],
+                    [
+                        2.19482110000,
+                        41.39925310000
+                    ],
+                    [
+                        2.19486240000,
+                        41.39931140000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "service",
+                "name": "Carrer de Pere IV",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.19045780000,
+                        41.39384160000
+                    ],
+                    [
+                        2.19037740000,
+                        41.39374420000
+                    ],
+                    [
+                        2.18985000000,
+                        41.39310570000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19555850000,
+                    41.40016060000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20710730000,
+                    41.41543200000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "traffic_signals",
+                "traffic_signals": "signal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19353020000,
+                    41.39763430000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Pere IV - Provençals",
+                "public_transport": "stop_position",
+                "ref": "3565",
+                "route_ref": "H14 B25 B20 N11"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20402270000,
+                    41.41132380000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19922150000,
+                    41.40463390000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "footway": "crossing",
+                "highway": "footway",
+                "name": "Carrer de Pere IV"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.20289020000,
+                        41.40984620000
+                    ],
+                    [
+                        2.20292870000,
+                        41.40982980000
+                    ],
+                    [
+                        2.20303930000,
+                        41.40977020000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "footway": "crossing",
+                "highway": "footway",
+                "name": "Carrer de Pere IV"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.20063790000,
+                        41.40640870000
+                    ],
+                    [
+                        2.20058460000,
+                        41.40643080000
+                    ],
+                    [
+                        2.20050430000,
+                        41.40646630000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20292870000,
+                    41.40982980000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20314030000,
+                    41.41012020000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cycleway": "asl"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20954840000,
+                    41.41812480000
+                ]
+            }
+        }
+    ]
+}
