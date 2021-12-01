@@ -15,14 +15,14 @@ var config = {
 		units: 'metric'
 	},
 	i18n: {
-		layersLabel: 'Layers',
-		editWith: 'Edit with:',
-		openWith: 'Open with:',
+		layersLabel: 'Capes/Layers',
+		editWith: 'Edita:',
+		openWith: 'Obre/Abre/Open:',
 		checkTools: 'Validation:',
 		copyDialog: 'S\'ha copiat l\'enllaç al porta-retalls.Enlace copiado. Link has been copied',
-		nodeLabel: 'Node:',
-		noNodesFound: 'No nodes found.',
-		wayLabel: 'Way:'
+		nodeLabel: 'Node/Nodo:',
+		noNodesFound: 'No info.',
+		wayLabel: 'Via/Way:'
 	},
 	overpassApi: function(){
 		// https://overpass-turbo.eu/
@@ -1053,7 +1053,7 @@ var config = {
 		},
 	{
       group: 'Test',
-      title: 'Prum',
+      title: 'Prum  <b> Clicar aquí</b>',
 	  iconSrc: imgSrc + 'base/circle.svg',
 	  iconStyle: 'background-color:#0000ff',
       geojson: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/img/base/test.geojson',
@@ -15531,6 +15531,8 @@ var vectorLayer = new ol.layer.Vector({
 		edit.append($('<a>').css('marginLeft', 5).attr({title: 'Potlatch 2', href: 'https://www.openstreetmap.org/edit?editor=potlatch2&lon=' + coordinateLL[0] + '&lat=' + coordinateLL[1] + '&zoom=' + view.getZoom(), target: '_blank'}).html($('<img>').attr({src: imgSrc + 'potlatch2logobig.png', height: 20, width: 20})));
 		//JOSM editor
 		edit.append($('<a>').css('marginLeft', 5).attr({title: 'JOSM', href: 'https://www.openstreetmap.org/edit?editor=remote&lon=' + coordinateLL[0] + '&lat=' + coordinateLL[1] + '&zoom=' + view.getZoom(), target: '_blank'}).html($('<img>').attr({src: imgSrc + 'JOSM Logotype 2019.svg', height: 20, width: 20})));
+				//Mapcomplete editor
+		edit.append($('<a>').css('marginLeft', 5).attr({title: 'Mapcomplete', href: 'https://mapcomplete.osm.be/index.html?z=' + view.getZoom() +'&lat='+ coordinateLL[1] +'&lon='+ coordinateLL[0] +'&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fosmlitmap%2Fmaster%2Fsrc%2Fjson%2Flit.json&language=ca#welcome', target: '_blank'}).html($('<img>').attr({src: imgSrc + 'mapcomplete_logo.png', height: 20, width: 20})));
 
 		var open = $('<div>').html(config.i18n.openWith);
 		//OSM
