@@ -18,7 +18,7 @@ var config = {
 		layersLabel: 'Capes/Layers',
 		editWith: 'Edita:',
 		openWith: 'Obre/Abre/Open:',
-		checkTools: 'Validation:',
+		checkTools: 'Valida:',
 		copyDialog: 'S\'ha copiat l\'enllaç al porta-retalls.Enlace copiado. Link has been copied',
 		nodeLabel: 'Node/Nodo:',
 		noNodesFound: 'No info.',
@@ -1417,6 +1417,9 @@ var config = {
 			group: 'Test',
 			title: 'Senyals Barcelona (Opendata Ajuntament BCN - NO OSM)',
 			iconSrc: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R2.png',
+			attributions: '&copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap2</a>',
+				//url: 'https://toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png'
+				url: 'https://tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png',
 			geojson: 'https://raw.githubusercontent.com/yopaseopor/customosmapp/master/customosmapp3/src/img/base/2021_06_27_senyals_transit_bcn.geojson',
 			style: function (feature) {
 				var name = feature.get('name') || '';
