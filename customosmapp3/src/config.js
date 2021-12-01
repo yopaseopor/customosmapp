@@ -1229,6 +1229,7 @@ var config = {
 			group: 'Test',
 			title: 'Pere IV',
 			iconSrc: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R2.png',
+						attributions: '&copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap2</a>',
 			geojson: 'https://raw.githubusercontent.com/yopaseopor/customosmapp/master/customosmapp3/src/img/base/2020_bcn_Carrer_de_Pere_IV.geojson',
 			style: function (feature) {
 				var name = feature.get('name') || '';
@@ -1417,9 +1418,6 @@ var config = {
 			group: 'Test',
 			title: 'Senyals Barcelona (Opendata Ajuntament BCN - NO OSM)',
 			iconSrc: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R2.png',
-			attributions: '&copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap2</a>',
-				//url: 'https://toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png'
-				url: 'https://tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png',
 			geojson: 'https://raw.githubusercontent.com/yopaseopor/customosmapp/master/customosmapp3/src/img/base/2021_06_27_senyals_transit_bcn.geojson',
 			style: function (feature) {
 				var name = feature.get('name') || '';
