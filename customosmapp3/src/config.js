@@ -42,6 +42,7 @@ var config = {
 			source: new ol.source.OSM()
 		}),
 		new ol.layer.Tile({
+			group: 'Test2',
 			title: 'OpenStreetMap B&W',
 			iconSrc: imgSrc + 'osmbw_logo-layer.png',
 			source: new ol.source.XYZ({
@@ -61,6 +62,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
+			group: 'Test2',
 			title: 'OpenMapSurfer',
 			iconSrc: imgSrc + 'openroute_logo_layer.png',
 			source: new ol.source.XYZ({
